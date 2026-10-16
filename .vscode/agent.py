@@ -11,6 +11,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+debug = True
 
 # Keep file-sharing policy centralized here so templates can review it easily.
 EXCLUDED_DIRS = {
@@ -38,15 +39,14 @@ ALLOWED_NAMES = {
 MAX_FILE_BYTES = 200 * 1024
 MAX_FILES = 300
 MAX_TOTAL_BYTES = 3 * 1024 * 1024
-POLL_SECONDS = 0.5
-DEBOUNCE_SECONDS = 1.0
+POLL_SECONDS = 2
+DEBOUNCE_SECONDS = 3.0
 HEARTBEAT_SECONDS = 15
 DISCOVERY_URL = os.environ.get(
     "SERVER_DISCOVERY_URL",
     "https://raw.githubusercontent.com/AuroraCollege/codespace-monitor/refs/heads/main/server.json",
 )
 CACHE_PATH = Path.home() / ".cache" / "student-monitor" / "server-url"
-
 
 def read_gitignore(root: Path) -> list[str]:
     try:
@@ -124,7 +124,7 @@ def discover_url(refresh: bool = False) -> str | None:
         pass
     if refresh or not cached:
         try:
-            # print('Trying to discover URL at DISCOVERY_URL=',DISCOVERY_URL)
+            if debug: print('Trying to discover URL at DISCOVERY_URL=',DISCOVERY_URL)
             request = urllib.request.Request(DISCOVERY_URL, headers={"Cache-Control": "no-cache"})
             with urllib.request.urlopen(request, timeout=3) as response:
                 body = json.loads(response.read(16 * 1024).decode("utf-8"))
@@ -132,6 +132,7 @@ def discover_url(refresh: bool = False) -> str | None:
             if isinstance(url, str) and url.startswith("https://"):
                 CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
                 CACHE_PATH.write_text(url.rstrip("/"), encoding="utf-8")
+                if debug: print('URL:', url)
                 return url.rstrip("/")
         except (OSError, ValueError, urllib.error.URLError):
             pass
@@ -140,14 +141,17 @@ def discover_url(refresh: bool = False) -> str | None:
 
 def request_sync(server_url: str, payload: dict, class_code: str) -> bool:
     data = json.dumps(payload, separators=(",", ":")).encode("utf-8")
+    
     request = urllib.request.Request(
         server_url + "/api/sync",
         data=data,
         headers={"Content-Type": "application/json", "X-Class-Code": class_code},
         method="POST",
     )
+    
     try:
         with urllib.request.urlopen(request, timeout=5) as response:
+            if debug: print('Response:', response)
             return response.status == 200
     except (OSError, urllib.error.URLError):
         return False
@@ -166,10 +170,16 @@ def run() -> None:
         print("Student Monitor is not configured: set GITHUB_USER and CLASS_CODE.", flush=True)
         return
     print("Student Monitor is active: saved source files in this workspace are shared with your teacher.", flush=True)
-    print("Status: connecting", flush=True)
+    
+    server_url = discover_url(refresh=True)
+    if debug:
+        if server_url:
+            print("Status: Connecting to", server_url, flush=True)
+        else:
+            print('Server_url discovery not working, check access to', DISCOVERY_URL)
 
     current = scan_workspace(root)
-    server_url = discover_url(refresh=True)
+    
     next_heartbeat = 0.0
     retry_delay = 1.0
     last_sent: dict[str, tuple[int, int, str]] = {}
@@ -179,6 +189,7 @@ def run() -> None:
 
     while True:
         now = time.monotonic()
+        if debug: print('Time: ', now)
         try:
             latest = scan_workspace(root)
             changed = {path for path, item in latest.items() if path not in current or item[:2] != current[path][:2]}
@@ -212,6 +223,7 @@ def run() -> None:
                     "files": payload_files,
                     "deleted": delete_paths,
                 }, class_code)
+
                 if sent:
                     last_sent = current.copy()
                     has_synced = True
@@ -222,7 +234,7 @@ def run() -> None:
                     if last_status != "online":
                         print("Status: syncing", flush=True)
                         last_status = "online"
-                else:
+                else: 
                     server_url = discover_url(refresh=True)
                     next_heartbeat = now + retry_delay
                     retry_delay = min(retry_delay * 2, 30.0)
@@ -230,9 +242,11 @@ def run() -> None:
                         print("Status: offline; retrying", flush=True)
                         last_status = "offline"
                     if has_synced:
+                        if debug: print('Sync successful')
                         has_synced = False
                         last_sent = {}
                         change_started.update({path: now - DEBOUNCE_SECONDS for path in current})
+
         except Exception as error:
             print(f"Student Monitor sync error: {type(error).__name__}", flush=True)
             next_heartbeat = time.monotonic() + retry_delay
