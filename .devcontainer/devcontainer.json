@@ -16,7 +16,7 @@
   "waitFor": "onCreateCommand",
   "updateContentCommand": "",
   "postCreateCommand": "pip install -r requirements.txt && apt-get clean && rm -rf /root/.cache/pip",
-  "postStartCommand": "nohup python3 ${containerWorkspaceFolder}/.vscode/agent.py >>/tmp/student-monitor-agent.log 2>&1 </dev/null &", 
+  "postStartCommand": "nohup python3 .vscode/agent.py",
   "customizations": {
     "vscode": {
       "settings": {
