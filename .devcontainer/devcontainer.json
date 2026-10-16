@@ -16,7 +16,7 @@
   "waitFor": "onCreateCommand",
   "updateContentCommand": "",
   "postCreateCommand": "pip install -r requirements.txt && apt-get clean && rm -rf /root/.cache/pip",
-  "postStartCommand": "nohup python3 .vscode/agent.py",
+  "postStartCommand": "nohup python3 .vscode/agent.py & disown",
   "customizations": {
     "vscode": {
       "settings": {
