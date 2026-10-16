@@ -159,7 +159,7 @@ def serialized_files(snapshot: dict[str, tuple[int, int, str]]) -> list[dict[str
 def run() -> None:
     root = Path(os.environ.get("WORKSPACE_FOLDER", os.getcwd())).resolve()
     username = os.environ.get("GITHUB_USER", "").strip()
-    class_code = os.environ.get("CLASS_CODE", "")
+    class_code = "AC27"
     display_name = os.environ.get("STUDENT_DISPLAY_NAME", "").strip()
     if not username or not class_code:
         print("Student Monitor is not configured: set GITHUB_USER and CLASS_CODE.", flush=True)
