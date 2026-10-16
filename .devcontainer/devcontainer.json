@@ -1,6 +1,12 @@
 {
   "name": "Python Flask Development Container",
   "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+  "containerEnv": {
+    "GITHUB_USER": "${localEnv:GITHUB_USER}",
+    "CLASS_CODE": "${localEnv:CLASS_CODE}",
+    "SERVER_DISCOVERY_URL": "https://github.com/AuroraCollege/codespace-monitor/blob/main/server.json",
+    "WORKSPACE_FOLDER": "${containerWorkspaceFolder}"
+  },
   "features": {
     "ghcr.io/devcontainers-contrib/features/coverage-py:2": {}
   },
@@ -10,11 +16,12 @@
   "waitFor": "onCreateCommand",
   "updateContentCommand": "",
   "postCreateCommand": "pip install -r requirements.txt && apt-get clean && rm -rf /root/.cache/pip",
-  "postStartCommand": "", // For commands to run each Codespace start
+  "postStartCommand": "nohup python3 ${containerWorkspaceFolder}/.vscode/agent.py >>/tmp/student-monitor-agent.log 2>&1 </dev/null &", // For commands to run each Codespace start
   "customizations": {
     "vscode": {
       "settings": {
-        "files.autoSave": "onFocusChange",
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
         "editor.formatOnPaste": true,
         "editor.formatOnSave": true,
         "editor.fontSize": 18,
