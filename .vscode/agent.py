@@ -11,7 +11,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-debug = True
+debug = False
 
 # Keep file-sharing policy centralized here so templates can review it easily.
 EXCLUDED_DIRS = {
@@ -35,7 +35,7 @@ ALLOWED_NAMES = {
     "Dockerfile", "Makefile", "GNUmakefile", "Procfile", "Justfile", "Gemfile",
     "Rakefile", "Cargo.lock", "go.mod", "go.sum", "requirements.txt", "Pipfile",
     "Pipfile.lock", "CMakeLists.txt", ".gitignore", ".gitattributes", ".editorconfig",
-}
+} 
 MAX_FILE_BYTES = 200 * 1024
 MAX_FILES = 300
 MAX_TOTAL_BYTES = 3 * 1024 * 1024
@@ -141,14 +141,14 @@ def discover_url(refresh: bool = False) -> str | None:
 
 def request_sync(server_url: str, payload: dict, class_code: str) -> bool:
     data = json.dumps(payload, separators=(",", ":")).encode("utf-8")
-    
+
     request = urllib.request.Request(
         server_url + "/api/sync",
         data=data,
         headers={"Content-Type": "application/json", "X-Class-Code": class_code},
         method="POST",
     )
-    
+
     try:
         with urllib.request.urlopen(request, timeout=5) as response:
             if debug: print('Response:', response)
@@ -161,6 +161,16 @@ def serialized_files(snapshot: dict[str, tuple[int, int, str]]) -> list[dict[str
     return [{"path": path, "content": value[2]} for path, value in snapshot.items()]
 
 
+def changed_paths(
+    previous: dict[str, tuple[int, int, str]],
+    latest: dict[str, tuple[int, int, str]],
+) -> set[str]:
+    return {
+        path for path, item in latest.items()
+        if path not in previous or item[2] != previous[path][2]
+    }
+
+
 def run() -> None:
     root = Path(os.environ.get("WORKSPACE_FOLDER", os.getcwd())).resolve()
     username = os.environ.get("GITHUB_USER", "").strip()
@@ -170,7 +180,7 @@ def run() -> None:
         print("Student Monitor is not configured: set GITHUB_USER and CLASS_CODE.", flush=True)
         return
     print("Student Monitor is active: saved source files in this workspace are shared with your teacher.", flush=True)
-    
+
     server_url = discover_url(refresh=True)
     if debug:
         if server_url:
@@ -179,7 +189,7 @@ def run() -> None:
             print('Server_url discovery not working, check access to', DISCOVERY_URL)
 
     current = scan_workspace(root)
-    
+
     next_heartbeat = 0.0
     retry_delay = 1.0
     last_sent: dict[str, tuple[int, int, str]] = {}
@@ -192,7 +202,7 @@ def run() -> None:
         if debug: print('Time: ', now)
         try:
             latest = scan_workspace(root)
-            changed = {path for path, item in latest.items() if path not in current or item[:2] != current[path][:2]}
+            changed = changed_paths(current, latest)
             deleted = set(current) - set(latest)
             for path in changed:
                 change_started[path] = now
@@ -234,7 +244,7 @@ def run() -> None:
                     if last_status != "online":
                         print("Status: syncing", flush=True)
                         last_status = "online"
-                else: 
+                else:
                     server_url = discover_url(refresh=True)
                     next_heartbeat = now + retry_delay
                     retry_delay = min(retry_delay * 2, 30.0)
