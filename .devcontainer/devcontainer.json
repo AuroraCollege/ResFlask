@@ -1,6 +1,12 @@
 {
   "name": "Python Flask Development Container",
   "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+  "containerEnv": {
+    "GITHUB_USER": "${localEnv:GITHUB_USER}",
+    "CLASS_CODE": "${localEnv:CLASS_CODE}",
+    "SERVER_DISCOVERY_URL": "https://raw.githubusercontent.com/AuroraCollege/codespace-monitor/refs/heads/main/server.json",
+    "WORKSPACE_FOLDER": "${containerWorkspaceFolder}"
+  },
   "features": {
     "ghcr.io/devcontainers-contrib/features/coverage-py:2": {}
   },
@@ -9,12 +15,13 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "",
-  "postCreateCommand": "pip install -r requirements.txt && apt-get clean && rm -rf /root/.cache/pip",
-  "postStartCommand": "", // For commands to run each Codespace start
+  "postCreateCommand": "if [ -f requirements.txt ]; then python3 -m pip install -r requirements.txt; fi",
+  "postAttachCommand": "nohup python3 .vscode/agent.py >> .vscode/agent.log 2>&1 < /dev/null &",
   "customizations": {
     "vscode": {
       "settings": {
-        "files.autoSave": "onFocusChange",
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
         "editor.formatOnPaste": true,
         "editor.formatOnSave": true,
         "editor.fontSize": 18,
@@ -52,7 +59,6 @@
         "ms-python.pylint",
         "ms-python.python",
         "oderwat.indent-rainbow",
-        "streetsidesoftware.code-spell-checker",
         "streetsidesoftware.code-spell-checker-british-english",
         "yusifaliyevpro.vscicons",
         "saeris.markdown-github-alerts",
