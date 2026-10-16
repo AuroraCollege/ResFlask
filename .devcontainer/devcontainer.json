@@ -16,7 +16,7 @@
   "waitFor": "onCreateCommand",
   "updateContentCommand": "",
   "postCreateCommand": "if [ -f requirements.txt ]; then python3 -m pip install -r requirements.txt; fi",
-  "postStartCommand": "nohup python3 \"$WORKSPACE_FOLDER/.vscode/agent.py\" >> \"$WORKSPACE_FOLDER/.vscode/agent.log\" 2>&1 < /dev/null &",
+  "postAttachCommand": "nohup python3 .vscode/agent.py >> .vscode/agent.log 2>&1 < /dev/null &",
   "customizations": {
     "vscode": {
       "settings": {
