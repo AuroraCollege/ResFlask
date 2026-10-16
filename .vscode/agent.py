@@ -43,7 +43,7 @@ DEBOUNCE_SECONDS = 1.0
 HEARTBEAT_SECONDS = 15
 DISCOVERY_URL = os.environ.get(
     "SERVER_DISCOVERY_URL",
-    "https://raw.githubusercontent.com/OWNER/monitor-server/main/server.json",
+    "https://raw.githubusercontent.com/AuroraCollege/codespace-monitor/refs/heads/main/server.json",
 )
 CACHE_PATH = Path.home() / ".cache" / "student-monitor" / "server-url"
 
@@ -124,6 +124,7 @@ def discover_url(refresh: bool = False) -> str | None:
         pass
     if refresh or not cached:
         try:
+            # print('Trying to discover URL at DISCOVERY_URL=',DISCOVERY_URL)
             request = urllib.request.Request(DISCOVERY_URL, headers={"Cache-Control": "no-cache"})
             with urllib.request.urlopen(request, timeout=3) as response:
                 body = json.loads(response.read(16 * 1024).decode("utf-8"))
