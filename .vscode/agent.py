@@ -6,6 +6,7 @@ from __future__ import annotations
 import fnmatch
 import json
 import os
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -176,8 +177,8 @@ def run() -> None:
     username = os.environ.get("GITHUB_USER", "").strip()
     class_code = "AC27"
     display_name = os.environ.get("STUDENT_DISPLAY_NAME", "").strip()
-    if not username or not class_code:
-        print("Student Monitor is not configured: set GITHUB_USER and CLASS_CODE.", flush=True)
+    if not username:
+        print("Student Monitor is not configured: GITHUB_USER is empty.", file=sys.stderr, flush=True)
         return
     print("Student Monitor is active: saved source files in this workspace are shared with your teacher.", flush=True)
 
