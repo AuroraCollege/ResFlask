@@ -1,0 +1,852 @@
+staff,day,time,duty,end
+Ellen Leggett,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Sarah Martin,Monday 26/10/26,6:00:00 AM,Welcome to Res,4:00:00 PM
+Amy Sterjovski,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Fletcher Aldous,Monday 26/10/26,6:00:00 AM,Welcome to Res,4:00:00 PM
+Scott Herdman,Monday 26/10/26,6:00:00 AM,Welcome to Res,4:00:00 PM
+Aimee Freeman,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Jason Webb,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Shikshya Bagale,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:00:00 PM
+Michelle Nicholls,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Chiya Beemster,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Silvia Rudmann,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+David Wassink,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Beth Hodson,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Thomas Kelly,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Peta Yaxley,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:00:00 PM
+Connor Boyko,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Susan  Byrne,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Cassandra Kaloudis,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Jaclyn Crawford,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Nicholas Short,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:00:00 PM
+Kristy Neilson,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Jason Ferns,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:00:00 PM
+Karen Bellamy,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:00:00 PM
+Jeffrey Larsen,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:00:00 PM
+Susanna Trikilis,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Abbie French,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Cathy Crouch,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Morgan Witt,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Helen Spencer,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Mahez Tariq,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Emma King,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Evan Hefer,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:00:00 PM
+Fiona Boneham,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Ruby Fuller,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Phoebe Jennings,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Agnieszka Wiklendt,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Michael Kelly,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Ashley Rose,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 PM
+Roshni Singh,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Keegan McMullen,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Hayley Laurie,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Christopher Hayden,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Walter Cisneros,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Julie Ruming,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Virginia Cluff,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Chris Robertson,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Carolyn Hungerford,Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
+Connor Boyko,Monday 26/10/26,7:00:00 AM,Bus 14 Dubbo,5:00:00 PM
+Susan  Byrne,Monday 26/10/26,7:00:00 AM,Bus 14 Dubbo,5:00:00 PM
+Kristy Neilson,Monday 26/10/26,7:00:00 AM,Bus 16 Griffith,6:00:00 PM
+Abbie French,Monday 26/10/26,7:00:00 AM,Bus 16 Griffith,6:00:00 PM
+Cathy Crouch,Monday 26/10/26,7:00:00 AM,Bus 2 Armidale,6:00:00 PM
+Morgan Witt,Monday 26/10/26,7:00:00 AM,Bus 4 West Wyalong,6:00:00 PM
+Helen Spencer,Monday 26/10/26,7:00:00 AM,Bus 6 Albury,6:00:00 PM
+Fiona Boneham,Monday 26/10/26,7:00:00 AM,Bus 4 West Wyalong,6:00:00 PM
+Phoebe Jennings,Monday 26/10/26,7:00:00 AM,Bus 6 Albury,6:00:00 PM
+Michelle Nicholls,Monday 26/10/26,7:30:00 AM,Bus 8 Coffs,5:30:00 PM
+Mahez Tariq,Monday 26/10/26,8:00:00 AM,Bus 9 Parkes,4:30:00 PM
+Agnieszka Wiklendt,Monday 26/10/26,8:00:00 AM,Bus 9 Parkes,4:30:00 PM
+Lisa Pearson,Monday 26/10/26,9:00:00 AM,Driving,6:00:00 PM
+Alexandria Lunguly,Monday 26/10/26,9:00:00 AM,Driving,6:00:00 PM
+Scott Warner,Monday 26/10/26,9:00:00 AM,Bus 2 Armidale,5:30:00 PM
+Evie Core,Monday 26/10/26,9:00:00 AM,Driving,6:00:00 PM
+Benetta Townsend,Monday 26/10/26,9:00:00 AM,Bus 8 Coffs,5:30:00 PM
+Janet Matthews,Monday 26/10/26,9:00:00 AM,Bus 7 Eden,5:30:00 PM
+Annalissa Roy,Monday 26/10/26,9:00:00 AM,Driving,6:00:00 PM
+Rob Taylor,Monday 26/10/26,9:00:00 AM,Bus 15 Bowral,5:30:00 PM
+Leah Ashe,Monday 26/10/26,9:00:00 AM,Bus 7 Eden,5:30:00 PM
+Adam Willis,Monday 26/10/26,9:00:00 AM,Bus 13 Cooma,5:30:00 PM
+Claire Houston,Monday 26/10/26,9:00:00 AM,Driving,6:00:00 PM
+Joshua Bowman,Monday 26/10/26,9:00:00 AM,Driving,10:00:00 AM
+Joshua Bowman,Monday 26/10/26,10:00:00 AM,Driving,6:00:00 PM
+Cassandra Kaloudis,Monday 26/10/26,10:00:00 AM,Bus 15 Bowral/arirport,5:00:00 PM
+Susanna Trikilis,Monday 26/10/26,10:00:00 AM,Bus 15 Bowral/arirport,4:30:00 PM
+Ruby Fuller,Monday 26/10/26,10:00:00 AM,Bus 5 Ulladulla,5:00:00 PM
+Walter Cisneros,Monday 26/10/26,10:00:00 AM,Bus 5 Ulladulla,6:00:00 PM
+Hayley Laurie,Monday 26/10/26,11:00:00 AM,Bus 2 Armidale,5:00:00 PM
+Ellen Leggett,Monday 26/10/26,12:00:00 PM,Set up Site,6:00:00 PM
+Amy Sterjovski,Monday 26/10/26,12:00:00 PM,Set up Site,6:30:00 PM
+Aimee Freeman,Monday 26/10/26,12:00:00 PM,Set up Site,9:00:00 PM
+Jason Webb,Monday 26/10/26,12:00:00 PM,Set up Site,9:30:00 PM
+Chiya Beemster,Monday 26/10/26,12:00:00 PM,Set up Site,6:00:00 PM
+Silvia Rudmann,Monday 26/10/26,12:00:00 PM,Set up Site,5:00:00 PM
+David Wassink,Monday 26/10/26,12:00:00 PM,Set up Site,5:30:00 PM
+Beth Hodson,Monday 26/10/26,12:00:00 PM,Set up Site,5:30:00 PM
+Thomas Kelly,Monday 26/10/26,12:00:00 PM,Set up Site,9:30:00 PM
+Jaclyn Crawford,Monday 26/10/26,12:00:00 PM,Set up Site,5:30:00 PM
+Emma King,Monday 26/10/26,12:00:00 PM,Set Up Site,9:30:00 PM
+Michael Kelly,Monday 26/10/26,12:00:00 PM,Set Up Site,6:00:00 PM
+Roshni Singh,Monday 26/10/26,12:00:00 PM,Set Up Site,6:00:00 PM
+Julie Ruming,Monday 26/10/26,12:00:00 PM,Set Up Site,5:00:00 PM
+Virginia Cluff,Monday 26/10/26,12:00:00 PM,Set Up Site,4:00:00 PM
+Chris Robertson,Monday 26/10/26,12:00:00 PM,Set Up Site,4:00:00 PM
+Carolyn Hungerford,Monday 26/10/26,12:00:00 PM,Set Up Site,4:00:00 PM
+Christopher Hayden,Monday 26/10/26,12:30:00 PM,Bus 15 Bowral,1:30:00 PM
+Christopher Hayden,Monday 26/10/26,1:30:00 PM,Bus 15 Bowral,2:30:00 PM
+Christopher Hayden,Monday 26/10/26,2:30:00 PM,Bus 15 Bowral,3:30:00 PM
+Christopher Hayden,Monday 26/10/26,3:30:00 PM,Bus 15 Bowral,4:30:00 PM
+Christopher Hayden,Monday 26/10/26,4:30:00 PM,Bus 15 Bowral,5:00:00 PM
+Julie Ruming,Monday 26/10/26,5:00:00 PM,Supervise Students in Auditorium/ Oval ,6:00:00 PM
+Virginia Cluff,Monday 26/10/26,5:00:00 PM,Supervise Students in Auditorium/ Oval ,6:00:00 PM
+Chris Robertson,Monday 26/10/26,5:00:00 PM,Supervise Students in Auditorium/ Oval ,6:00:00 PM
+Carolyn Hungerford,Monday 26/10/26,5:00:00 PM,Supervise Students in Auditorium/ Oval ,6:00:00 PM
+Scott Warner,Monday 26/10/26,6:00:00 PM,Dinner Supervision,8:00:00 PM
+Leah Ashe,Monday 26/10/26,6:00:00 PM,Dinner Supervision,8:00:00 PM
+David Wassink,Monday 26/10/26,6:00:00 PM,Dinner Duty,8:00:00 PM
+Jaclyn Crawford,Monday 26/10/26,6:00:00 PM,Dinner Duty,8:00:00 PM
+Lisa Pearson,Monday 26/10/26,7:00:00 PM,Welcome Assembly (Lead),8:00:00 PM
+Alexandria Lunguly,Monday 26/10/26,7:00:00 PM,Welcome Assembly,10:00:00 PM
+Evie Core,Monday 26/10/26,7:00:00 PM,Welcome Assembly,8:00:00 PM
+Benetta Townsend,Monday 26/10/26,7:00:00 PM,Welcome Assembly,8:00:00 PM
+Janet Matthews,Monday 26/10/26,7:00:00 PM,Welcome Assembly,10:00:00 PM
+Annalissa Roy,Monday 26/10/26,7:00:00 PM,Welcome Assembly,8:00:00 PM
+Rob Taylor,Monday 26/10/26,7:00:00 PM,Welcome Assembly,8:00:00 PM
+Adam Willis,Monday 26/10/26,7:00:00 PM,Welcome Assembly,10:00:00 PM
+Claire Houston,Monday 26/10/26,7:00:00 PM,Welcome Assembly,9:00:00 PM
+Joshua Bowman,Monday 26/10/26,7:00:00 PM,Welcome Assembly,8:00:00 PM
+Ellen Leggett,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Sarah Martin,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Amy Sterjovski,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Fletcher Aldous,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Scott Herdman,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Shikshya Bagale,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Michelle Nicholls,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Beth Hodson,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Peta Yaxley,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Connor Boyko,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Susan  Byrne,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Cassandra Kaloudis,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Nicholas Short,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Kristy Neilson,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Jason Ferns,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Karen Bellamy,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Susanna Trikilis,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Abbie French,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Cathy Crouch,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Morgan Witt,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Helen Spencer,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Mahez Tariq,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Evan Hefer,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Fiona Boneham,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Ruby Fuller,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Phoebe Jennings,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Agnieszka Wiklendt,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Michael Kelly,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Ashley Rose,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Roshni Singh,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Hayley Laurie,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Christopher Hayden,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Walter Cisneros,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Julie Ruming,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Virginia Cluff,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Chris Robertson,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,8:00:00 PM
+Carolyn Hungerford,Monday 26/10/26,7:00:00 PM,Welcome Assembly in Auditorium,9:30:00 PM
+Silvia Rudmann,Monday 26/10/26,8:00:00 PM,Medication,9:30:00 PM
+Chiya Beemster,Monday 26/10/26,8:30:00 PM,unavailable,10:00:00 PM
+Jaclyn Crawford,Monday 26/10/26,8:30:00 PM,Medication,9:30:00 PM
+Susanna Trikilis,Monday 26/10/26,8:30:00 PM,Medication,9:30:00 PM
+Cathy Crouch,Monday 26/10/26,8:30:00 PM,Medication,9:30:00 PM
+Christopher Hayden,Monday 26/10/26,8:30:00 PM,Medication,9:30:00 PM
+Julie Ruming,Monday 26/10/26,8:30:00 PM,Medication,9:30:00 PM
+Scott Warner,Tuesday 27/10/26,7:00:00 AM,Wake up students,7:30:00 AM
+Evie Core,Tuesday 27/10/26,7:00:00 AM,Wake up students,7:30:00 AM
+Rob Taylor,Tuesday 27/10/26,7:00:00 AM,Wake up students,7:30:00 AM
+Sarah Martin,Tuesday 27/10/26,7:00:00 AM,Wake up Students,7:30:00 AM
+Jason Webb,Tuesday 27/10/26,7:00:00 AM,Wake up students ,7:30:00 AM
+Connor Boyko,Tuesday 27/10/26,7:00:00 AM,Wake Up Students,7:30:00 AM
+Nicholas Short,Tuesday 27/10/26,7:00:00 AM,Wake up Students ,7:30:00 AM
+Jason Ferns,Tuesday 27/10/26,7:00:00 AM,Wake up Students,7:30:00 AM
+Emma King,Tuesday 27/10/26,7:00:00 AM,Wake Up Studnts ,7:30:00 AM
+Evan Hefer,Tuesday 27/10/26,7:00:00 AM,Wake up Students,7:30:00 AM
+Fiona Boneham,Tuesday 27/10/26,7:00:00 AM,Wake up Students ,7:30:00 AM
+Michael Kelly,Tuesday 27/10/26,7:00:00 AM,Wake up Students,7:30:00 AM
+Benetta Townsend,Tuesday 27/10/26,7:30:00 AM,Breakfast supervision (dietaries),9:30:00 AM
+Claire Houston,Tuesday 27/10/26,7:30:00 AM,Meds,10:30:00 AM
+Joshua Bowman,Tuesday 27/10/26,7:30:00 AM,Breakfast supervision ,10:30:00 AM
+Amy Sterjovski,Tuesday 27/10/26,7:30:00 AM,Breakfast Duty,8:00:00 AM
+Scott Herdman,Tuesday 27/10/26,7:30:00 AM,Breakfast Duty,8:00:00 AM
+Shikshya Bagale,Tuesday 27/10/26,7:30:00 AM,Medication,8:30:00 AM
+Michelle Nicholls,Tuesday 27/10/26,7:30:00 AM,Medication,12:00:00 PM
+Silvia Rudmann,Tuesday 27/10/26,7:30:00 AM,Medication,12:00:00 PM
+Jaclyn Crawford,Tuesday 27/10/26,7:30:00 AM,Medication,3:00:00 PM
+Kristy Neilson,Tuesday 27/10/26,7:30:00 AM,Breakfast Duty,8:00:00 AM
+Susanna Trikilis,Tuesday 27/10/26,7:30:00 AM,Medication,3:00:00 PM
+Abbie French,Tuesday 27/10/26,7:30:00 AM,Breakfast Duty,8:00:00 AM
+Cathy Crouch,Tuesday 27/10/26,7:30:00 AM,Medication,10:30:00 AM
+Helen Spencer,Tuesday 27/10/26,7:30:00 AM,Breakfast Duty,8:00:00 AM
+Christopher Hayden,Tuesday 27/10/26,7:30:00 AM,Medication,4:00:00 PM
+Julie Ruming,Tuesday 27/10/26,7:30:00 AM,Medication,8:30:00 AM
+Lisa Pearson,Tuesday 27/10/26,8:00:00 AM,Welcome STEMT4L & Setup,8:30:00 AM
+Evie Core,Tuesday 27/10/26,8:00:00 AM,Set up maths lesson,8:30:00 AM
+Janet Matthews,Tuesday 27/10/26,8:00:00 AM,set up maths lesson,10:30:00 AM
+Adam Willis,Tuesday 27/10/26,8:00:00 AM,set up maths lesson,10:30:00 AM
+Ellen Leggett,Tuesday 27/10/26,8:00:00 AM,Breakfast Duty,12:00:00 PM
+Chiya Beemster,Tuesday 27/10/26,8:00:00 AM,Breakfast Duty,12:00:00 PM
+Karen Bellamy,Tuesday 27/10/26,8:00:00 AM,Breakfast Duty,3:00:00 PM
+Jeffrey Larsen,Tuesday 27/10/26,8:00:00 AM,Brekfast Duty,12:30:00 PM
+Mahez Tariq,Tuesday 27/10/26,8:00:00 AM,Breakfast Duty,10:30:00 AM
+Emma King,Tuesday 27/10/26,8:00:00 AM,Set up Y8,4:00:00 PM
+Evan Hefer,Tuesday 27/10/26,8:00:00 AM,Set up Y9,3:00:00 PM
+Fiona Boneham,Tuesday 27/10/26,8:00:00 AM,Set up Y10,3:00:00 PM
+Scott Warner,Tuesday 27/10/26,8:30:00 AM,Group A: STEM T4L Activity,9:30:00 AM
+Annalissa Roy,Tuesday 27/10/26,8:30:00 AM,Group B: Narrabeen Activities,10:30:00 AM
+Rob Taylor,Tuesday 27/10/26,8:30:00 AM,Group B: Narrabeen Activities,11:00:00 AM
+Leah Ashe,Tuesday 27/10/26,8:30:00 AM,Group B: Narrabeen Activities,12:00:00 PM
+Dishanka Aikens,Tuesday 27/10/26,8:30:00 AM,Group C: Maths Lesson,10:30:00 AM
+Amy Sterjovski,Tuesday 27/10/26,8:30:00 AM,Y7 Narrabeen ,12:30:00 PM
+Fletcher Aldous,Tuesday 27/10/26,8:30:00 AM,Y7 Inquisitive Minds,12:00:00 PM
+Scott Herdman,Tuesday 27/10/26,8:30:00 AM,Y7 Inquisitive Minds,12:00:00 PM
+Aimee Freeman,Tuesday 27/10/26,8:30:00 AM,Y7 Inquisitive Minds,12:00:00 PM
+Jason Webb,Tuesday 27/10/26,8:30:00 AM,Y7 Inquisitive Minds,12:00:00 PM
+David Wassink,Tuesday 27/10/26,8:30:00 AM,Narrabeen Office,4:30:00 PM
+Beth Hodson,Tuesday 27/10/26,8:30:00 AM,Y5 Excursion,4:30:00 PM
+Thomas Kelly,Tuesday 27/10/26,8:30:00 AM,Y9 English Group 1,11:00:00 AM
+Peta Yaxley,Tuesday 27/10/26,8:30:00 AM,Y9 English Group 1,10:30:00 AM
+Connor Boyko,Tuesday 27/10/26,8:30:00 AM,Y9 English Group 1,10:30:00 AM
+Susan  Byrne,Tuesday 27/10/26,8:30:00 AM,Y9 English Group 1,10:30:00 AM
+Cassandra Kaloudis,Tuesday 27/10/26,8:30:00 AM,Y10 Harbour Bridge- HB1,3:00:00 PM
+Nicholas Short,Tuesday 27/10/26,8:30:00 AM,Y9 English Group 1,10:30:00 AM
+Kristy Neilson,Tuesday 27/10/26,8:30:00 AM,Y8 Group 1 Museum,4:00:00 PM
+Jason Ferns,Tuesday 27/10/26,8:30:00 AM,Y9 Maths Group 2,11:00:00 AM
+Abbie French,Tuesday 27/10/26,8:30:00 AM,Well Being Room ,10:30:00 AM
+Morgan Witt,Tuesday 27/10/26,8:30:00 AM,Y9 Maths Group 2,10:30:00 AM
+Helen Spencer,Tuesday 27/10/26,8:30:00 AM,Y10 Harbour Bridge- HB2,3:00:00 PM
+Ruby Fuller,Tuesday 27/10/26,8:30:00 AM,Y8 Gardens Group 2,4:00:00 PM
+Phoebe Jennings,Tuesday 27/10/26,8:30:00 AM,Y8 Gardens Group 2,4:00:00 PM
+Agnieszka Wiklendt,Tuesday 27/10/26,8:30:00 AM,Y10 Harbour Bridge- HB6,3:00:00 PM
+Michael Kelly,Tuesday 27/10/26,8:30:00 AM,Y10 Harbour Bridge -HB4,3:00:00 PM
+Ashley Rose,Tuesday 27/10/26,8:30:00 AM,Y8 Gardens Group 2,4:00:00 PM
+Roshni Singh,Tuesday 27/10/26,8:30:00 AM,Y8 Gardens Group 2,4:00:00 PM
+Hayley Laurie,Tuesday 27/10/26,8:30:00 AM,Y10 Harbour Bridge -HB1,3:00:00 PM
+Walter Cisneros,Tuesday 27/10/26,8:30:00 AM,Y8 Group 1 Museum,4:00:00 PM
+Carolyn Hungerford,Tuesday 27/10/26,8:30:00 AM,Y10 Harbour Bridge- HB5,3:00:00 PM
+Roshni Singh,,, ( Divide into 3 groups),
+Alexandria Lunguly,Tuesday 27/10/26,9:30:00 AM,Group A: STEM T4L Activity,
+Evie Core,Tuesday 27/10/26,9:30:00 AM,Group A: STEM T4L Activity,
+Alexandria Lunguly,Tuesday 27/10/26,10:00:00 AM,Group A: STEM T4L Activity,
+Evie Core,Tuesday 27/10/26,10:00:00 AM,Group A: STEM T4L Activity,
+Roshni Singh,,, ( Divide into 3 groups),
+Alexandria Lunguly,Tuesday 27/10/26,11:00:00 AM,Group A: Maths Lesson,
+Scott Warner,Tuesday 27/10/26,11:00:00 AM,Group A: Maths Lesson,
+Evie Core,Tuesday 27/10/26,11:00:00 AM,Group A: Maths Lesson,1:00:00 PM
+Benetta Townsend,Tuesday 27/10/26,11:00:00 AM,Group A: Maths Lesson,1:00:00 PM
+Janet Matthews,Tuesday 27/10/26,11:00:00 AM,Group B: STEM T4L Activity,12:00:00 PM
+Annalissa Roy,Tuesday 27/10/26,11:00:00 AM,Group C: Narrabeen Activities,1:00:00 PM
+Adam Willis,Tuesday 27/10/26,11:00:00 AM,Croup C: Narrabeen Activities,1:30:00 PM
+Joshua Bowman,Tuesday 27/10/26,11:00:00 AM,Croup C: Narrabeen Activities,1:00:00 PM
+Dishanka Aikens,Tuesday 27/10/26,11:00:00 AM,Croup C: Narrabeen Activities,1:00:00 PM
+Peta Yaxley,Tuesday 27/10/26,11:00:00 AM,Y9 English Group 2,1:00:00 PM
+Connor Boyko,Tuesday 27/10/26,11:00:00 AM,Y9 English Group 2,1:00:00 PM
+Susan  Byrne,Tuesday 27/10/26,11:00:00 AM,Y9 English Group 2,3:00:00 PM
+Nicholas Short,Tuesday 27/10/26,11:00:00 AM,Y9 English Group 2,1:00:00 PM
+Abbie French,Tuesday 27/10/26,11:00:00 AM,Y9 Maths,1:00:00 PM
+Cathy Crouch,Tuesday 27/10/26,11:00:00 AM,Y9 Maths,1:00:00 PM
+Morgan Witt,Tuesday 27/10/26,11:00:00 AM,Y9 Maths,1:00:00 PM
+Mahez Tariq,Tuesday 27/10/26,11:00:00 AM,Y9 Maths,1:00:00 PM
+Alexandria Lunguly,Tuesday 27/10/26,11:30:00 AM,Group A: Maths Lesson,1:00:00 PM
+Scott Warner,Tuesday 27/10/26,11:30:00 AM,Group A: Maths Lesson,1:00:00 PM
+Rob Taylor,Tuesday 27/10/26,12:00:00 PM,Group B: STEM T4L Activity,1:00:00 PM
+Claire Houston,Tuesday 27/10/26,12:00:00 PM,Group B: STEM T4L Activity,1:00:00 PM
+Shikshya Bagale,Tuesday 27/10/26,12:00:00 PM,Lunch Duty,3:00:00 PM
+Silvia Rudmann,Tuesday 27/10/26,12:30:00 PM,Lunch Duty,3:30:00 PM
+Julie Ruming,Tuesday 27/10/26,12:30:00 PM,Well being room ,2:00:00 PM
+Lisa Pearson,Tuesday 27/10/26,1:00:00 PM,Lunch Supervision,1:30:00 PM
+Ellen Leggett,Tuesday 27/10/26,1:00:00 PM,Y7 Inquisitive Minds,4:00:00 PM
+Amy Sterjovski,Tuesday 27/10/26,1:00:00 PM,Y7 Inquisitive Minds,4:00:00 PM
+Fletcher Aldous,Tuesday 27/10/26,1:00:00 PM,Y7 Inquisitive Minds,5:00:00 PM
+Scott Herdman,Tuesday 27/10/26,1:00:00 PM,Y7 Narrabeen ,3:30:00 PM
+Aimee Freeman,Tuesday 27/10/26,1:00:00 PM,Y7 Narrabeen ,3:30:00 PM
+Jason Webb,Tuesday 27/10/26,1:00:00 PM,Y7 Narrabeen ,3:30:00 PM
+Chiya Beemster,Tuesday 27/10/26,1:00:00 PM,Y7 Inquisitive Minds,3:30:00 PM
+Thomas Kelly,Tuesday 27/10/26,1:00:00 PM,Lunch Duty,2:30:00 PM
+Jason Ferns,Tuesday 27/10/26,1:00:00 PM,Y9 Lunch Duty,2:30:00 PM
+Jeffrey Larsen,Tuesday 27/10/26,1:00:00 PM,Y9 Lunch Duty,1:30:00 PM
+Alexandria Lunguly,Tuesday 27/10/26,1:30:00 PM,Group A: Narrabeen Activities,3:30:00 PM
+Scott Warner,Tuesday 27/10/26,1:30:00 PM,Group A: Narrabeen Activities,3:30:00 PM
+Evie Core,Tuesday 27/10/26,1:30:00 PM,Group A: Narrabeen Activities,3:30:00 PM
+Benetta Townsend,Tuesday 27/10/26,1:30:00 PM,Group A: Narrabeen Activities,3:30:00 PM
+Janet Matthews,Tuesday 27/10/26,1:30:00 PM,Group B: Maths Lesson,3:30:00 PM
+Rob Taylor,Tuesday 27/10/26,1:30:00 PM,Group B: Maths Lesson,3:30:00 PM
+Leah Ashe,Tuesday 27/10/26,1:30:00 PM,Group B: Maths Lesson,4:00:00 PM
+Claire Houston,Tuesday 27/10/26,1:30:00 PM,Group B: Maths Lesson,3:30:00 PM
+Joshua Bowman,Tuesday 27/10/26,1:30:00 PM,Group C: STEM T4L Activity,2:30:00 PM
+Dishanka Aikens,Tuesday 27/10/26,1:30:00 PM,Group C: STEM T4L Activity,2:30:00 PM
+Abbie French,Tuesday 27/10/26,1:30:00 PM,Y9 School Photos ,4:30:00 PM
+Cathy Crouch,Tuesday 27/10/26,1:30:00 PM,Y9 Board Games ,3:30:00 PM
+Morgan Witt,Tuesday 27/10/26,1:30:00 PM,Y9 Board Games,2:30:00 PM
+Mahez Tariq,Tuesday 27/10/26,1:30:00 PM,Y9 Supervision Photos board games and Oval ,2:30:00 PM
+Annalissa Roy,Tuesday 27/10/26,2:30:00 PM,Group C: STEM T4L Activity,3:30:00 PM
+Adam Willis,Tuesday 27/10/26,2:30:00 PM,Group C: STEM T4L Activity,3:30:00 PM
+Sarah Martin,Tuesday 27/10/26,2:30:00 PM,well being room ,4:00:00 PM
+Peta Yaxley,Tuesday 27/10/26,2:30:00 PM,Afternoon Tea,3:00:00 PM
+Thomas Kelly,Tuesday 27/10/26,3:00:00 PM,Y9 Collaroy Activities,5:30:00 PM
+Connor Boyko,Tuesday 27/10/26,3:00:00 PM,Y9 Collaroy Activities,4:30:00 PM
+Nicholas Short,Tuesday 27/10/26,3:00:00 PM,Y9 Collaroy Activities,4:30:00 PM
+Morgan Witt,Tuesday 27/10/26,3:00:00 PM,Y9 Collaroy Activities,4:30:00 PM
+Joshua Bowman,Tuesday 27/10/26,3:30:00 PM,Afternoon Tea supervision,4:00:00 PM
+Jason Ferns,Tuesday 27/10/26,3:30:00 PM,Y10 Maths,5:00:00 PM
+Karen Bellamy,Tuesday 27/10/26,3:30:00 PM,Y10 Maths,5:00:00 PM
+Jeffrey Larsen,Tuesday 27/10/26,3:30:00 PM,Y10 Maths,5:00:00 PM
+Susanna Trikilis,Tuesday 27/10/26,3:30:00 PM,Y10 Maths,5:00:00 PM
+Helen Spencer,Tuesday 27/10/26,3:30:00 PM,Y10 Maths,5:00:00 PM
+Mahez Tariq,Tuesday 27/10/26,3:30:00 PM,Y10 Maths,5:00:00 PM
+Agnieszka Wiklendt,Tuesday 27/10/26,3:30:00 PM,Well Being Room ,4:30:00 PM
+Scott Warner,Tuesday 27/10/26,4:00:00 PM,dorm supervision,5:30:00 PM
+Rob Taylor,Tuesday 27/10/26,4:00:00 PM,dorm supervsion,4:30:00 PM
+Dishanka Aikens,Tuesday 27/10/26,4:00:00 PM,dorm supervision,4:30:00 PM
+Scott Herdman,Tuesday 27/10/26,4:00:00 PM,Boy Dorms,4:30:00 PM
+Jason Webb,Tuesday 27/10/26,4:00:00 PM,Boys Dorms,4:30:00 PM
+Shikshya Bagale,Tuesday 27/10/26,4:00:00 PM,Girls Dorms,4:30:00 PM
+Chiya Beemster,Tuesday 27/10/26,4:00:00 PM,Girls Dorms,4:30:00 PM
+Evie Core,Tuesday 27/10/26,4:30:00 PM,board games,5:30:00 PM
+Benetta Townsend,Tuesday 27/10/26,4:30:00 PM,board games,5:30:00 PM
+Annalissa Roy,Tuesday 27/10/26,4:30:00 PM,board games,5:30:00 PM
+Claire Houston,Tuesday 27/10/26,4:30:00 PM,school photos,5:30:00 PM
+Joshua Bowman,Tuesday 27/10/26,4:30:00 PM,school photos,5:30:00 PM
+Ellen Leggett,Tuesday 27/10/26,4:30:00 PM,Dinner Duty,5:00:00 PM
+Amy Sterjovski,Tuesday 27/10/26,4:30:00 PM,Dinner Duty,5:00:00 PM
+Peta Yaxley,Tuesday 27/10/26,4:30:00 PM,Girls Dorms,5:30:00 PM
+Susan  Byrne,Tuesday 27/10/26,4:30:00 PM,Girls Dorms,5:30:00 PM
+Jaclyn Crawford,Tuesday 27/10/26,4:30:00 PM,Girls Dorms,5:30:00 PM
+Cathy Crouch,Tuesday 27/10/26,4:30:00 PM,Girls Dorms,5:30:00 PM
+Michael Kelly,Tuesday 27/10/26,4:30:00 PM,Boys Dorms,5:30:00 PM
+Roshni Singh,Tuesday 27/10/26,4:30:00 PM,Well Being Room ,6:30:00 PM
+Christopher Hayden,Tuesday 27/10/26,4:30:00 PM,Boys Dorms,5:30:00 PM
+Scott Herdman,Tuesday 27/10/26,5:00:00 PM,Dinner duty,5:30:00 PM
+Aimee Freeman,Tuesday 27/10/26,5:00:00 PM,Dinner Duty,9:00:00 PM
+Lisa Pearson,Tuesday 27/10/26,5:30:00 PM,Dinner Supervision,9:00:00 PM
+Janet Matthews,Tuesday 27/10/26,5:30:00 PM,Dinner Supervision,7:00:00 PM
+Adam Willis,Tuesday 27/10/26,5:30:00 PM,Dinner Supervision (dietaries),7:00:00 PM
+Ellen Leggett,Tuesday 27/10/26,5:30:00 PM,Y7 Roll call 7B,10:00:00 PM
+Sarah Martin,Tuesday 27/10/26,5:30:00 PM,Y7 Roll call 7A,9:00:00 PM
+Jason Webb,Tuesday 27/10/26,5:30:00 PM,Y7 Roll call 7B,10:00:00 PM
+Michelle Nicholls,Tuesday 27/10/26,5:30:00 PM,Y7 Roll call 7C,10:00:00 PM
+David Wassink,Tuesday 27/10/26,5:30:00 PM,Y7 Roll call 7A,9:00:00 PM
+Cassandra Kaloudis,Tuesday 27/10/26,5:30:00 PM,Dinner Duty,6:00:00 PM
+Abbie French,Tuesday 27/10/26,5:30:00 PM,Dinner Duty,6:00:00 PM
+Morgan Witt,Tuesday 27/10/26,5:30:00 PM,Dinner Duty,6:00:00 PM
+Emma King,Tuesday 27/10/26,5:30:00 PM,Dinner Duty,6:00:00 PM
+Nicholas Short,Tuesday 27/10/26,6:00:00 PM,Dinner Duty,6:30:00 PM
+Kristy Neilson,Tuesday 27/10/26,6:00:00 PM,Dinner Duty,6:30:00 PM
+Susanna Trikilis,Tuesday 27/10/26,6:00:00 PM,Dinner Duty,6:30:00 PM
+Alexandria Lunguly,Tuesday 27/10/26,6:30:00 PM,Roll Call / Walk to Gym,7:00:00 PM
+Scott Warner,Tuesday 27/10/26,6:30:00 PM,Roll Call / Walk to Gym,7:00:00 PM
+Evie Core,Tuesday 27/10/26,6:30:00 PM,Roll Call / Walk to Gym,7:00:00 PM
+Benetta Townsend,Tuesday 27/10/26,6:30:00 PM,Roll Call / Walk to Gym,7:00:00 PM
+Annalissa Roy,Tuesday 27/10/26,6:30:00 PM,Roll Call / Walk to Gym,7:00:00 PM
+Rob Taylor,Tuesday 27/10/26,6:30:00 PM,Roll Call / Walk to Gym,9:00:00 PM
+Leah Ashe,Tuesday 27/10/26,6:30:00 PM,Roll Call / Walk to Gym,9:00:00 PM
+Claire Houston,Tuesday 27/10/26,6:30:00 PM,Roll Call / Walk to Gym,7:00:00 PM
+Joshua Bowman,Tuesday 27/10/26,6:30:00 PM,Roll Call / Walk to Gym,7:00:00 PM
+Chiya Beemster,Tuesday 27/10/26,6:30:00 PM,unavailable,10:00:00 PM
+Thomas Kelly,Tuesday 27/10/26,6:30:00 PM,Y8 Singing Sesh,8:30:00 PM
+Peta Yaxley,Tuesday 27/10/26,6:30:00 PM,Y8 Singing Sesh,8:30:00 PM
+Susan  Byrne,Tuesday 27/10/26,6:30:00 PM,Y8 Singing Sesh,8:30:00 PM
+Cassandra Kaloudis,Tuesday 27/10/26,6:30:00 PM,Y8 Singing Sesh,8:30:00 PM
+Jaclyn Crawford,Tuesday 27/10/26,6:30:00 PM,Y8 Singing Sesh,9:30:00 PM
+Jason Ferns,Tuesday 27/10/26,6:30:00 PM,Y9 Singing Sesh,8:30:00 PM
+Karen Bellamy,Tuesday 27/10/26,6:30:00 PM,Y9 Singing Sesh,8:30:00 PM
+Helen Spencer,Tuesday 27/10/26,6:30:00 PM,Y9 Singing Sesh,8:30:00 PM
+Mahez Tariq,Tuesday 27/10/26,6:30:00 PM,Well Being Room ,8:30:00 PM
+Emma King,Tuesday 27/10/26,6:30:00 PM,Y8 Singing Sesh,9:00:00 PM
+Fiona Boneham,Tuesday 27/10/26,6:30:00 PM,Y10 Singing Sesh,9:00:00 PM
+Ruby Fuller,Tuesday 27/10/26,6:30:00 PM,Y10 Singing Sesh,8:30:00 PM
+Agnieszka Wiklendt,Tuesday 27/10/26,6:30:00 PM,Y10 Singing Sesh,8:30:00 PM
+Michael Kelly,Tuesday 27/10/26,6:30:00 PM,Y10 Singing Sesh,10:00:00 PM
+Hayley Laurie,Tuesday 27/10/26,6:30:00 PM,Y10 Singing Sesh,8:30:00 PM
+Walter Cisneros,Tuesday 27/10/26,6:30:00 PM,Y9 Singing Sesh,7:30:00 PM
+Walter Cisneros,Tuesday 27/10/26,7:30:00 PM,Y9 Singing Sesh,8:30:00 PM
+Connor Boyko,Tuesday 27/10/26,8:30:00 PM,Long Reef Boys ,10:00:00 PM
+Nicholas Short,Tuesday 27/10/26,8:30:00 PM,Narrabeen Boys Dorm,10:00:00 PM
+Susanna Trikilis,Tuesday 27/10/26,8:30:00 PM,Medication,9:30:00 PM
+Abbie French,Tuesday 27/10/26,8:30:00 PM,Collaroy Girls Dorm,10:00:00 PM
+Cathy Crouch,Tuesday 27/10/26,8:30:00 PM,Medication,9:30:00 PM
+Morgan Witt,Tuesday 27/10/26,8:30:00 PM,Collaroy Girls Dorm,10:00:00 PM
+Evan Hefer,Tuesday 27/10/26,8:30:00 PM,Prep Y9,9:00:00 PM
+Ashley Rose,Tuesday 27/10/26,8:30:00 PM,Dee Why Girls Dorms,10:00:00 PM
+Roshni Singh,Tuesday 27/10/26,8:30:00 PM,Dee Why Girls Dorms,10:00:00 PM
+Christopher Hayden,Tuesday 27/10/26,8:30:00 PM,Medication,9:30:00 PM
+Julie Ruming,Tuesday 27/10/26,8:30:00 PM,Medication,9:30:00 PM
+Benetta Townsend,Tuesday 27/10/26,9:00:00 PM,Dorm Supervision,10:00:00 PM
+Janet Matthews,Tuesday 27/10/26,9:00:00 PM,Dorm Supervision,10:00:00 PM
+Adam Willis,Tuesday 27/10/26,9:00:00 PM,Dorm Supervision,10:00:00 PM
+Claire Houston,Tuesday 27/10/26,9:00:00 PM,Meds,10:00:00 PM
+Amy Sterjovski,Tuesday 27/10/26,9:00:00 PM,Girls Dorms,10:00:00 PM
+Scott Herdman,Tuesday 27/10/26,9:00:00 PM,Boys Dorms,10:00:00 PM
+Shikshya Bagale,Tuesday 27/10/26,9:00:00 PM,Medication,10:00:00 PM
+Silvia Rudmann,Tuesday 27/10/26,9:00:00 PM,Medication,10:00:00 PM
+Scott Warner,Wednesday 28/10/26,6:30:00 AM,Wake up students,7:00:00 AM
+Evie Core,Wednesday 28/10/26,6:30:00 AM,Wake up students,7:00:00 AM
+Rob Taylor,Wednesday 28/10/26,6:30:00 AM,Wake up students,7:00:00 AM
+Claire Houston,Wednesday 28/10/26,6:30:00 AM,Meds,5:00:00 PM
+Annalissa Roy,Wednesday 28/10/26,7:00:00 AM,Breakfast supervision (dietary),5:00:00 PM
+Leah Ashe,Wednesday 28/10/26,7:00:00 AM,Breakfast Supervision,5:00:00 PM
+Joshua Bowman,Wednesday 28/10/26,7:00:00 AM,Breakfast supervision ,5:00:00 PM
+Sarah Martin,Wednesday 28/10/26,7:00:00 AM,Wake Up students,7:30:00 AM
+Fletcher Aldous,Wednesday 28/10/26,7:00:00 AM,Wake up Students,7:30:00 AM
+Shikshya Bagale,Wednesday 28/10/26,7:00:00 AM,Medication,11:00:00 AM
+Michelle Nicholls,Wednesday 28/10/26,7:00:00 AM,Medication,8:00:00 AM
+Silvia Rudmann,Wednesday 28/10/26,7:00:00 AM,Medication,11:00:00 AM
+David Wassink,Wednesday 28/10/26,7:00:00 AM,Breakfast Duty,7:30:00 AM
+Connor Boyko,Wednesday 28/10/26,7:00:00 AM,Wake Up Students,7:30:00 AM
+Susan  Byrne,Wednesday 28/10/26,7:00:00 AM,Wake Up Students,7:30:00 AM
+Jaclyn Crawford,Wednesday 28/10/26,7:00:00 AM,Medication,8:00:00 AM
+Susanna Trikilis,Wednesday 28/10/26,7:00:00 AM,Medication,8:00:00 AM
+Cathy Crouch,Wednesday 28/10/26,7:00:00 AM,Medication,8:00:00 AM
+Fiona Boneham,Wednesday 28/10/26,7:00:00 AM,Wake Up Students,7:30:00 AM
+Ruby Fuller,Wednesday 28/10/26,7:00:00 AM,Wake Up Students,7:30:00 AM
+Phoebe Jennings,Wednesday 28/10/26,7:00:00 AM,Wake Up Students,7:30:00 AM
+Michael Kelly,Wednesday 28/10/26,7:00:00 AM,Wake Up Students,7:30:00 AM
+Roshni Singh,Wednesday 28/10/26,7:00:00 AM,Wake Up Students,7:30:00 AM
+Christopher Hayden,Wednesday 28/10/26,7:00:00 AM,Medication,8:00:00 AM
+Julie Ruming,Wednesday 28/10/26,7:00:00 AM,Medication,8:00:00 AM
+Lisa Pearson,Wednesday 28/10/26,7:30:00 AM,Help lay out and set up lunch/morning tea,5:30:00 PM
+Alexandria Lunguly,Wednesday 28/10/26,7:30:00 AM,Roll Call Group A,5:00:00 PM
+Scott Warner,Wednesday 28/10/26,7:30:00 AM,Roll Call Group A,5:00:00 PM
+Evie Core,Wednesday 28/10/26,7:30:00 AM,Roll Call Group A,5:00:00 PM
+Benetta Townsend,Wednesday 28/10/26,7:30:00 AM,Roll Call Group A,5:00:00 PM
+Janet Matthews,Wednesday 28/10/26,7:30:00 AM,Roll Call Group B,5:30:00 PM
+Rob Taylor,Wednesday 28/10/26,7:30:00 AM,Roll Call Group B,5:00:00 PM
+Adam Willis,Wednesday 28/10/26,7:30:00 AM,Roll Call Group C,5:00:00 PM
+Dishanka Aikens,Wednesday 28/10/26,7:30:00 AM,Roll Call Group C,5:00:00 PM
+Aimee Freeman,Wednesday 28/10/26,7:30:00 AM,Breakfast Duty,1:00:00 PM
+Jason Webb,Wednesday 28/10/26,7:30:00 AM,Breakfast Duty,1:00:00 PM
+Peta Yaxley,Wednesday 28/10/26,7:30:00 AM,Breakfast Duty,8:00:00 AM
+Cassandra Kaloudis,Wednesday 28/10/26,7:30:00 AM,Breakfast Duty,8:00:00 AM
+Jeffrey Larsen,Wednesday 28/10/26,7:30:00 AM,Breakfast Duty,8:00:00 AM
+Ellen Leggett,Wednesday 28/10/26,8:00:00 AM,Y7 English ,1:30:00 PM
+Sarah Martin,Wednesday 28/10/26,8:00:00 AM,Y7 English ,1:00:00 PM
+Amy Sterjovski,Wednesday 28/10/26,8:00:00 AM,Y7 English ,1:00:00 PM
+Fletcher Aldous,Wednesday 28/10/26,8:00:00 AM,Y7 English ,1:00:00 PM
+Scott Herdman,Wednesday 28/10/26,8:00:00 AM,Breakfast Duty,1:00:00 PM
+Chiya Beemster,Wednesday 28/10/26,8:00:00 AM,Travel to Collaroy (Silvia),11:00:00 AM
+David Wassink,Wednesday 28/10/26,8:00:00 AM,Well Being Room,12:00:00 PM
+Jason Ferns,Wednesday 28/10/26,8:00:00 AM,Breakfast Duty,8:30:00 AM
+Karen Bellamy,Wednesday 28/10/26,8:00:00 AM,Breakfast Duty,8:30:00 AM
+Abbie French,Wednesday 28/10/26,8:00:00 AM,Breakfast Duty,8:30:00 AM
+Emma King,Wednesday 28/10/26,8:00:00 AM,Prep Y8,8:30:00 AM
+Evan Hefer,Wednesday 28/10/26,8:00:00 AM,Prep Y9,3:00:00 PM
+Fiona Boneham,Wednesday 28/10/26,8:00:00 AM,Prep Y10,3:00:00 PM
+Cassandra Kaloudis,Wednesday 28/10/26,8:30:00 AM,Y10 ABCN - 10A Amazon,3:00:00 PM
+Kristy Neilson,Wednesday 28/10/26,8:30:00 AM,Y9 Zoo,3:00:00 PM
+Jeffrey Larsen,Wednesday 28/10/26,8:30:00 AM,Y9 Zoo,3:30:00 PM
+Susanna Trikilis,Wednesday 28/10/26,8:30:00 AM,Y9 Zoo,3:00:00 PM
+Morgan Witt,Wednesday 28/10/26,8:30:00 AM,Y9 Zoo,3:00:00 PM
+Ruby Fuller,Wednesday 28/10/26,8:30:00 AM,Y8 Science,10:30:00 AM
+Phoebe Jennings,Wednesday 28/10/26,8:30:00 AM,Y8 Science,11:00:00 AM
+Agnieszka Wiklendt,Wednesday 28/10/26,8:30:00 AM,Y8 Science,10:30:00 AM
+Michael Kelly,Wednesday 28/10/26,8:30:00 AM,Y9 Zoo,3:00:00 PM
+Ashley Rose,Wednesday 28/10/26,8:30:00 AM,Y8 Science,10:30:00 AM
+Roshni Singh,Wednesday 28/10/26,8:30:00 AM,Y8 Science,12:30:00 PM
+Hayley Laurie,Wednesday 28/10/26,8:30:00 AM,Well Being Room ,10:30:00 AM
+Christopher Hayden,Wednesday 28/10/26,8:30:00 AM,Y10 ABCN - 10B Korn Ferry,3:00:00 PM
+Walter Cisneros,Wednesday 28/10/26,8:30:00 AM,Y9 Zoo,3:00:00 PM
+Julie Ruming,Wednesday 28/10/26,8:30:00 AM,Y10 ABCN - 10 A -Ashurst,9:30:00 AM
+Julie Ruming,Wednesday 28/10/26,9:30:00 AM,Y10 ABCN - 10 A -Ashurst,3:00:00 PM
+Cathy Crouch,Wednesday 28/10/26,10:30:00 AM,Y8 Morning Tea,11:00:00 AM
+Mahez Tariq,Wednesday 28/10/26,10:30:00 AM,Y8 Maths,12:30:00 PM
+Emma King,Wednesday 28/10/26,10:30:00 AM,Y8 Maths,12:30:00 PM
+Thomas Kelly,Wednesday 28/10/26,11:00:00 AM,Y8 English- Group 2,12:30:00 PM
+Peta Yaxley,Wednesday 28/10/26,11:00:00 AM,Y8 English- Group 2,12:30:00 PM
+Connor Boyko,Wednesday 28/10/26,11:00:00 AM,Y8 English- Group 2,12:30:00 PM
+Susan  Byrne,Wednesday 28/10/26,11:00:00 AM,Y8 English- Group 2,12:30:00 PM
+Jaclyn Crawford,Wednesday 28/10/26,11:00:00 AM,Y8 English- Group 2,12:30:00 PM
+Nicholas Short,Wednesday 28/10/26,11:00:00 AM,Y8 English- Group 2,12:30:00 PM
+Jason Ferns,Wednesday 28/10/26,11:00:00 AM,Y8 Maths - Group 1,12:30:00 PM
+Karen Bellamy,Wednesday 28/10/26,11:00:00 AM,Y8 Maths - Group 1,12:30:00 PM
+Abbie French,Wednesday 28/10/26,11:00:00 AM,Y8 Maths - Group 1,12:30:00 PM
+Helen Spencer,Wednesday 28/10/26,11:00:00 AM,Y8 Maths - Group 1,12:30:00 PM
+Chiya Beemster,Wednesday 28/10/26,11:30:00 AM,well being room ,12:30:00 PM
+Chiya Beemster,Wednesday 28/10/26,12:30:00 PM,well being room ,1:00:00 PM
+Ashley Rose,Wednesday 28/10/26,12:30:00 PM,Well Being Room ,2:30:00 PM
+Silvia Rudmann,Wednesday 28/10/26,1:00:00 PM,Lunch Duty,3:00:00 PM
+Thomas Kelly,Wednesday 28/10/26,1:00:00 PM,Y8 English - Group 1,2:30:00 PM
+Peta Yaxley,Wednesday 28/10/26,1:00:00 PM,Y8 English - Group 1,2:30:00 PM
+Connor Boyko,Wednesday 28/10/26,1:00:00 PM,Y8 English - Group 1,2:30:00 PM
+Susan  Byrne,Wednesday 28/10/26,1:00:00 PM,Y8 English - Group 1,2:30:00 PM
+Jaclyn Crawford,Wednesday 28/10/26,1:00:00 PM,Y8 English - Group 1,2:30:00 PM
+Nicholas Short,Wednesday 28/10/26,1:00:00 PM,Y8 English - Group 1,2:30:00 PM
+Jason Ferns,Wednesday 28/10/26,1:00:00 PM,Y8 Maths - Group 2,2:30:00 PM
+Karen Bellamy,Wednesday 28/10/26,1:00:00 PM,Y8 Maths - Group 2,4:30:00 PM
+Abbie French,Wednesday 28/10/26,1:00:00 PM,Y8 Maths - Group 2,2:30:00 PM
+Cathy Crouch,Wednesday 28/10/26,1:00:00 PM,Y8 Maths - Group 2,2:30:00 PM
+Helen Spencer,Wednesday 28/10/26,1:00:00 PM,Y8 Maths - Group 2,2:30:00 PM
+Mahez Tariq,Wednesday 28/10/26,1:00:00 PM,Y8 Maths - Group 2,2:30:00 PM
+Emma King,Wednesday 28/10/26,1:00:00 PM,Y8 Maths - Group 2,2:30:00 PM
+Ruby Fuller,Wednesday 28/10/26,1:00:00 PM,Travel to Narrabeen (Roshni),5:00:00 PM
+Phoebe Jennings,Wednesday 28/10/26,1:00:00 PM,Travel to Narrabeen (Roshni),5:00:00 PM
+Agnieszka Wiklendt,Wednesday 28/10/26,1:00:00 PM,Travel to Narrabeen (Roshni),5:00:00 PM
+Roshni Singh,Wednesday 28/10/26,1:00:00 PM,Travel to Narrabeen (Driver),5:00:00 PM
+Sarah Martin,Wednesday 28/10/26,1:30:00 PM,Y7 Narrabeen,3:00:00 PM
+Amy Sterjovski,Wednesday 28/10/26,1:30:00 PM,well being room ,6:00:00 PM
+Scott Herdman,Wednesday 28/10/26,1:30:00 PM,Y7 Narrabeen,3:00:00 PM
+Aimee Freeman,Wednesday 28/10/26,1:30:00 PM,Y7 Narrabeen,3:00:00 PM
+Jason Webb,Wednesday 28/10/26,1:30:00 PM,Y7 Science,3:00:00 PM
+Shikshya Bagale,Wednesday 28/10/26,1:30:00 PM,Y7 Science,3:00:00 PM
+Michelle Nicholls,Wednesday 28/10/26,1:30:00 PM,Y7 Science,3:00:00 PM
+Chiya Beemster,Wednesday 28/10/26,1:30:00 PM,Y7 Science,2:30:00 PM
+Chiya Beemster,Wednesday 28/10/26,2:30:00 PM,Y7 Science,3:00:00 PM
+Hayley Laurie,Wednesday 28/10/26,2:30:00 PM,Book Shop,4:30:00 PM
+Ellen Leggett,Wednesday 28/10/26,3:00:00 PM,Travel to Collaroy,9:30:00 PM
+Fletcher Aldous,Wednesday 28/10/26,3:00:00 PM,Afternoon Tea,6:00:00 PM
+Jaclyn Crawford,Wednesday 28/10/26,3:00:00 PM,Book Shop,3:30:00 PM
+Nicholas Short,Wednesday 28/10/26,3:00:00 PM,Afternoon Tea,3:30:00 PM
+Mahez Tariq,Wednesday 28/10/26,3:00:00 PM,Book Shop,3:30:00 PM
+Aimee Freeman,Wednesday 28/10/26,3:30:00 PM,well being room ,
+Jason Webb,Wednesday 28/10/26,3:30:00 PM,Y7 Science,5:00:00 PM
+Shikshya Bagale,Wednesday 28/10/26,3:30:00 PM,Y7 Science,5:00:00 PM
+Michelle Nicholls,Wednesday 28/10/26,3:30:00 PM,Y7 Science,6:00:00 PM
+Chiya Beemster,Wednesday 28/10/26,3:30:00 PM,Y7 Science,5:00:00 PM
+Silvia Rudmann,Wednesday 28/10/26,3:30:00 PM,Y7 Science,5:00:00 PM
+Connor Boyko,Wednesday 28/10/26,3:30:00 PM,Y8 Collaroy Activities,5:00:00 PM
+Jason Ferns,Wednesday 28/10/26,3:30:00 PM,Y8 Collaroy Activities,5:00:00 PM
+Abbie French,Wednesday 28/10/26,3:30:00 PM,Y8 Collaroy Activities,5:00:00 PM
+Cathy Crouch,Wednesday 28/10/26,3:30:00 PM,Trivia Night Prep,9:30:00 PM
+Helen Spencer,Wednesday 28/10/26,3:30:00 PM,Y8 Collaroy Activities,5:00:00 PM
+Emma King,Wednesday 28/10/26,3:30:00 PM,Y8 Collaroy Activities,5:00:00 PM
+Evan Hefer,Wednesday 28/10/26,3:30:00 PM,Y9 Science,5:00:00 PM
+Ashley Rose,Wednesday 28/10/26,3:30:00 PM,Y9 Science,5:00:00 PM
+Aimee Freeman,Wednesday 28/10/26,4:00:00 PM,well being room ,6:00:00 PM
+Christopher Hayden,Wednesday 28/10/26,4:30:00 PM,Well Being Room ,7:30:00 PM
+Sarah Martin,Wednesday 28/10/26,5:00:00 PM,Bookshop,6:00:00 PM
+Scott Herdman,Wednesday 28/10/26,5:00:00 PM,Boys Dorms,6:00:00 PM
+David Wassink,Wednesday 28/10/26,5:00:00 PM,well being room,7:00:00 PM
+Thomas Kelly,Wednesday 28/10/26,5:00:00 PM,Dorm Duty Long Reef,5:30:00 PM
+Peta Yaxley,Wednesday 28/10/26,5:00:00 PM,Boys Dorms,5:30:00 PM
+Susan  Byrne,Wednesday 28/10/26,5:00:00 PM,Girls Dorms,5:30:00 PM
+Cassandra Kaloudis,Wednesday 28/10/26,5:00:00 PM,Girls Dorms,5:30:00 PM
+Jaclyn Crawford,Wednesday 28/10/26,5:00:00 PM,Girls Dorms,5:30:00 PM
+Jeffrey Larsen,Wednesday 28/10/26,5:00:00 PM,Boys Dorms,5:30:00 PM
+Scott Warner,Wednesday 28/10/26,5:30:00 PM,Book Shop,6:00:00 PM
+Evie Core,Wednesday 28/10/26,5:30:00 PM,Book Shop,6:00:00 PM
+Benetta Townsend,Wednesday 28/10/26,5:30:00 PM,Dorm Supervision,6:00:00 PM
+Rob Taylor,Wednesday 28/10/26,5:30:00 PM,Dorm Supervision,6:00:00 PM
+Adam Willis,Wednesday 28/10/26,5:30:00 PM,Dorm Supervision,6:00:00 PM
+Nicholas Short,Wednesday 28/10/26,5:30:00 PM,Dinner Duty,6:00:00 PM
+Jason Ferns,Wednesday 28/10/26,5:30:00 PM,Dinner Duty,6:00:00 PM
+Mahez Tariq,Wednesday 28/10/26,5:30:00 PM,Dinner Duty,6:00:00 PM
+Fiona Boneham,Wednesday 28/10/26,5:30:00 PM,Girls Dorms,6:00:00 PM
+Michael Kelly,Wednesday 28/10/26,5:30:00 PM,Boys Dorms,6:00:00 PM
+Annalissa Roy,Wednesday 28/10/26,6:00:00 PM,Dinner Supervision (dietaries),7:00:00 PM
+Leah Ashe,Wednesday 28/10/26,6:00:00 PM,Dinner supervision,7:00:00 PM
+Silvia Rudmann,Wednesday 28/10/26,6:00:00 PM,Dinner Duty,10:00:00 PM
+Karen Bellamy,Wednesday 28/10/26,6:00:00 PM,Dinner Duty,6:30:00 PM
+Abbie French,Wednesday 28/10/26,6:00:00 PM,Dinner Duty,6:30:00 PM
+Helen Spencer,Wednesday 28/10/26,6:00:00 PM,Dinner Duty,6:30:00 PM
+Peta Yaxley,Wednesday 28/10/26,6:30:00 PM,Trivia Night,9:00:00 PM
+Connor Boyko,Wednesday 28/10/26,6:30:00 PM,Trivia Night,9:00:00 PM
+Susan  Byrne,Wednesday 28/10/26,6:30:00 PM,Trivia Night,9:00:00 PM
+Jaclyn Crawford,Wednesday 28/10/26,6:30:00 PM,Trivia Night,10:00:00 PM
+Jason Ferns,Wednesday 28/10/26,6:30:00 PM,Trivia Night,9:00:00 PM
+Mahez Tariq,Wednesday 28/10/26,6:30:00 PM,Trivia Night,9:00:00 PM
+Emma King,Wednesday 28/10/26,6:30:00 PM,Prep  y8,8:00:00 PM
+Evan Hefer,Wednesday 28/10/26,6:30:00 PM,Prep Y9,8:00:00 PM
+Fiona Boneham,Wednesday 28/10/26,6:30:00 PM,Prep Y10,8:00:00 PM
+Phoebe Jennings,Wednesday 28/10/26,6:30:00 PM,Trivia Night,9:00:00 PM
+Agnieszka Wiklendt,Wednesday 28/10/26,6:30:00 PM,Trivia Night,9:00:00 PM
+Michael Kelly,Wednesday 28/10/26,6:30:00 PM,Trivia Night,9:00:00 PM
+Ashley Rose,Wednesday 28/10/26,6:30:00 PM,Trivia Night,9:00:00 PM
+Roshni Singh,Wednesday 28/10/26,6:30:00 PM,Trivia Night,9:00:00 PM
+Hayley Laurie,Wednesday 28/10/26,6:30:00 PM,Trivia Night,9:00:00 PM
+Walter Cisneros,Wednesday 28/10/26,6:30:00 PM,Trivia Night,8:30:00 PM
+Lisa Pearson,Wednesday 28/10/26,7:00:00 PM,Author Talk,8:30:00 PM
+Evie Core,Wednesday 28/10/26,7:00:00 PM,Author Talk,8:30:00 PM
+Joshua Bowman,Wednesday 28/10/26,7:00:00 PM,Author Talk,8:30:00 PM
+Sarah Martin,Wednesday 28/10/26,7:00:00 PM,Y7 Author Talk,10:00:00 PM
+Amy Sterjovski,Wednesday 28/10/26,7:00:00 PM,Y7 Author Talk,8:30:00 PM
+Fletcher Aldous,Wednesday 28/10/26,7:00:00 PM,Y7 Author Talk,8:30:00 PM
+Aimee Freeman,Wednesday 28/10/26,7:00:00 PM,Y7 Author Talk,10:00:00 PM
+Morgan Witt,Wednesday 28/10/26,7:00:00 PM,Well Being Room ,8:00:00 PM
+Morgan Witt,Wednesday 28/10/26,8:00:00 PM,Well Being Room ,8:30:00 PM
+Alexandria Lunguly,Wednesday 28/10/26,8:30:00 PM,Dorm Supervision,9:30:00 PM
+Janet Matthews,Wednesday 28/10/26,8:30:00 PM,Dorm Supervision,9:30:00 PM
+Adam Willis,Wednesday 28/10/26,8:30:00 PM,Dorm Supervision,9:30:00 PM
+Claire Houston,Wednesday 28/10/26,8:30:00 PM,Meds,9:30:00 PM
+Scott Herdman,Wednesday 28/10/26,8:30:00 PM,Dorm Duty-- Sign off,10:00:00 PM
+Jason Webb,Wednesday 28/10/26,8:30:00 PM,Dorm Duty-- Sign off,10:00:00 PM
+Shikshya Bagale,Wednesday 28/10/26,8:30:00 PM,Medication,10:00:00 PM
+Michelle Nicholls,Wednesday 28/10/26,8:30:00 PM,Medication,10:00:00 PM
+Susanna Trikilis,Wednesday 28/10/26,8:30:00 PM,Medication,9:30:00 PM
+Christopher Hayden,Wednesday 28/10/26,8:30:00 PM,Medication,9:30:00 PM
+Julie Ruming,Wednesday 28/10/26,8:30:00 PM,Medication,9:30:00 PM
+Thomas Kelly,Wednesday 28/10/26,9:00:00 PM,Dorm Duty Long Reef,10:00:00 PM
+Nicholas Short,Wednesday 28/10/26,9:00:00 PM,Narrabeen Boys Dorm,10:00:00 PM
+Kristy Neilson,Wednesday 28/10/26,9:00:00 PM,Girls Dorms,9:30:00 PM
+Ruby Fuller,Wednesday 28/10/26,9:30:00 PM,Girls Dorms- Dee Why,6:00:00 AM
+Phoebe Jennings,Wednesday 28/10/26,9:30:00 PM,Girls Dorms- Collaroy,6:00:00 AM
+Michael Kelly,Wednesday 28/10/26,9:30:00 PM,Fishermans Boys Dorms ,6:00:00 AM
+Rob Taylor,Thursday 29/10/26,7:00:00 AM,wake up students,7:30:00 AM
+Leah Ashe,Thursday 29/10/26,7:00:00 AM,wake up students,7:30:00 AM
+Claire Houston,Thursday 29/10/26,7:00:00 AM,Meds,8:00:00 AM
+Joshua Bowman,Thursday 29/10/26,7:00:00 AM,wake up students,7:30:00 AM
+Ellen Leggett,Thursday 29/10/26,7:00:00 AM,Wake up students,7:30:00 AM
+Sarah Martin,Thursday 29/10/26,7:00:00 AM,Wake up students,7:30:00 AM
+Amy Sterjovski,Thursday 29/10/26,7:00:00 AM,Wake up students,7:30:00 AM
+Fletcher Aldous,Thursday 29/10/26,7:00:00 AM,Wake up students,6:30:00 PM
+Scott Herdman,Thursday 29/10/26,7:00:00 AM,Wake up students,7:30:00 AM
+Jason Webb,Thursday 29/10/26,7:00:00 AM,Wake Up Students ,7:30:00 AM
+Jason Ferns,Thursday 29/10/26,7:00:00 AM,WAKE UP DORM,7:30:00 AM
+Susanna Trikilis,Thursday 29/10/26,7:00:00 AM,Medication,8:00:00 AM
+Cathy Crouch,Thursday 29/10/26,7:00:00 AM,Medication,8:00:00 AM
+Emma King,Thursday 29/10/26,7:00:00 AM,Wake up Dorm,7:30:00 AM
+Evan Hefer,Thursday 29/10/26,7:00:00 AM,Wake up Dorm,7:30:00 AM
+Fiona Boneham,Thursday 29/10/26,7:00:00 AM,Wake up Dorm,7:30:00 AM
+Phoebe Jennings,Thursday 29/10/26,7:00:00 AM,Wake up Dorm,7:30:00 AM
+Christopher Hayden,Thursday 29/10/26,7:00:00 AM,Medication,8:00:00 AM
+Julie Ruming,Thursday 29/10/26,7:00:00 AM,Medication,8:00:00 AM
+Scott Warner,Thursday 29/10/26,7:30:00 AM,Breakfast supervision (dietaries),10:30:00 AM
+Benetta Townsend,Thursday 29/10/26,7:30:00 AM,Breakfast supervision,9:00:00 AM
+Aimee Freeman,Thursday 29/10/26,7:30:00 AM,Prep  for day out,6:00:00 PM
+Shikshya Bagale,Thursday 29/10/26,7:30:00 AM,Medication,6:00:00 PM
+Michelle Nicholls,Thursday 29/10/26,7:30:00 AM,Medication,6:00:00 PM
+Chiya Beemster,Thursday 29/10/26,7:30:00 AM,Breakfast Duty,3:30:00 PM
+Silvia Rudmann,Thursday 29/10/26,7:30:00 AM,Medication,6:00:00 PM
+Peta Yaxley,Thursday 29/10/26,7:30:00 AM,Breakfst Duty,8:00:00 AM
+Cassandra Kaloudis,Thursday 29/10/26,7:30:00 AM,Breakfast Duty,8:00:00 AM
+Jaclyn Crawford,Thursday 29/10/26,7:30:00 AM,Drive Ruby to Narrabeen ,8:00:00 AM
+Ruby Fuller,Thursday 29/10/26,7:30:00 AM,Travel to  Narrabeen (with Jaclyn),6:00:00 PM
+Ellen Leggett,Thursday 29/10/26,8:00:00 AM,Y7 Big Day Out Y7 3C,6:00:00 PM
+Sarah Martin,Thursday 29/10/26,8:00:00 AM,Y7 Big Day Out Y7 2B,6:00:00 PM
+Amy Sterjovski,Thursday 29/10/26,8:00:00 AM,Y7 Big Day Out- Y7 3C,6:00:00 PM
+Scott Herdman,Thursday 29/10/26,8:00:00 AM,Y7 Big Day Out -Y7 4D,6:30:00 PM
+Jason Webb,Thursday 29/10/26,8:00:00 AM,Y7 Big Day Out - Y7 3C,6:00:00 PM
+Thomas Kelly,Thursday 29/10/26,8:00:00 AM,Breakfast Duty,3:00:00 PM
+Connor Boyko,Thursday 29/10/26,8:00:00 AM,Breakfast Duty,8:30:00 AM
+Jason Ferns,Thursday 29/10/26,8:00:00 AM,Breakfast Duty,8:30:00 AM
+Emma King,Thursday 29/10/26,8:00:00 AM,Prep  y8,6:00:00 PM
+Evan Hefer,Thursday 29/10/26,8:00:00 AM,Prep Y9,3:00:00 PM
+Fiona Boneham,Thursday 29/10/26,8:00:00 AM,Prep Y10,10:00:00 AM
+Walter Cisneros,Thursday 29/10/26,8:00:00 AM,Breakfast Duty,3:30:00 PM
+Alexandria Lunguly,Thursday 29/10/26,8:30:00 AM,Walk to Oval / Roll Call,10:30:00 AM
+Evie Core,Thursday 29/10/26,8:30:00 AM,Walk to Oval / Roll Call,10:30:00 AM
+Janet Matthews,Thursday 29/10/26,8:30:00 AM,Walk to Oval / Roll Call,10:30:00 AM
+Annalissa Roy,Thursday 29/10/26,8:30:00 AM,Walk to Oval / Roll Call,10:30:00 AM
+Rob Taylor,Thursday 29/10/26,8:30:00 AM,Walk to Oval / Roll Call,11:00:00 AM
+Leah Ashe,Thursday 29/10/26,8:30:00 AM,Walk to Oval / Roll Call,9:00:00 AM
+Adam Willis,Thursday 29/10/26,8:30:00 AM,Walk to Oval / Roll Call,9:00:00 AM
+Claire Houston,Thursday 29/10/26,8:30:00 AM,Walk to Oval / Roll Call,9:00:00 AM
+Joshua Bowman,Thursday 29/10/26,8:30:00 AM,Walk to Oval / Roll Call,9:00:00 AM
+Dishanka Aikens,Thursday 29/10/26,8:30:00 AM,Walk to Oval / Roll Call,9:00:00 AM
+Susan  Byrne,Thursday 29/10/26,8:30:00 AM,Y9 ANSTO,3:00:00 PM
+Jaclyn Crawford,Thursday 29/10/26,8:30:00 AM,Drive back to Collaroy,9:00:00 AM
+Nicholas Short,Thursday 29/10/26,8:30:00 AM,Y8 Museum - Group 2,6:00:00 PM
+Kristy Neilson,Thursday 29/10/26,8:30:00 AM,Y8 Gardens - Group 1,6:00:00 PM
+Karen Bellamy,Thursday 29/10/26,8:30:00 AM,Y8 Gardens - Group 1,6:00:00 PM
+Jeffrey Larsen,Thursday 29/10/26,8:30:00 AM,Y9 ANSTO,3:00:00 PM
+Susanna Trikilis,Thursday 29/10/26,8:30:00 AM,Y8 Museum - Group 2,6:30:00 PM
+Abbie French,Thursday 29/10/26,8:30:00 AM,Y8 Gardens - Group 1,6:00:00 PM
+Morgan Witt,Thursday 29/10/26,8:30:00 AM,Y9 ANSTO,3:00:00 PM
+Mahez Tariq,Thursday 29/10/26,8:30:00 AM,Y8 Museum - Group 2,6:30:00 PM
+Phoebe Jennings,Thursday 29/10/26,8:30:00 AM,Y10 Science,10:00:00 AM
+Agnieszka Wiklendt,Thursday 29/10/26,8:30:00 AM,Y10 Science,10:00:00 AM
+Michael Kelly,Thursday 29/10/26,8:30:00 AM,Y10 Science,10:00:00 AM
+Ashley Rose,Thursday 29/10/26,8:30:00 AM,Y9 ANSTO,3:00:00 PM
+Roshni Singh,Thursday 29/10/26,8:30:00 AM,Y10 Science,10:00:00 AM
+Hayley Laurie,Thursday 29/10/26,8:30:00 AM,Y8 Museum - Group 2,8:30:00 PM
+Hayley Laurie,,,(divide in to 3 groups),
+Hayley Laurie,,,(divide in to 3 groups),
+Benetta Townsend,Thursday 29/10/26,10:30:00 AM,Morning Tea,
+Peta Yaxley,Thursday 29/10/26,10:30:00 AM,Y10 English,
+Connor Boyko,Thursday 29/10/26,10:30:00 AM,Y10 English,12:00:00 PM
+Cassandra Kaloudis,Thursday 29/10/26,10:30:00 AM,Y10 English,12:00:00 PM
+Jaclyn Crawford,Thursday 29/10/26,10:30:00 AM,Y10 English,12:00:00 PM
+Benetta Townsend,Thursday 29/10/26,11:00:00 AM,Be Challenged Group 1,12:30:00 PM
+Leah Ashe,Thursday 29/10/26,11:00:00 AM,Be Challenged Group 2,12:30:00 PM
+Adam Willis,Thursday 29/10/26,11:00:00 AM,Be Challenged Group 2,12:30:00 PM
+Claire Houston,Thursday 29/10/26,11:00:00 AM,Be Challenged Group 1,12:30:00 PM
+Joshua Bowman,Thursday 29/10/26,11:00:00 AM,Be Challenged Group 2,12:30:00 PM
+Dishanka Aikens,Thursday 29/10/26,11:00:00 AM,Be Challenged Group 1,12:30:00 PM
+Peta Yaxley,Thursday 29/10/26,11:00:00 AM,Y10 English,12:00:00 PM
+Jason Ferns,Thursday 29/10/26,12:00:00 PM,Lunch Duty,12:30:00 PM
+Fiona Boneham,Thursday 29/10/26,12:00:00 PM,Lunch Duty,12:30:00 PM
+Scott Warner,Thursday 29/10/26,12:30:00 PM,Lunch Supervision,1:30:00 PM
+Evie Core,Thursday 29/10/26,12:30:00 PM,Lunch Supervision,1:30:00 PM
+Cathy Crouch,Thursday 29/10/26,12:30:00 PM,Lunch Duty,2:00:00 PM
+Michael Kelly,Thursday 29/10/26,12:30:00 PM,Lunch Duty,1:00:00 PM
+Peta Yaxley,Thursday 29/10/26,1:00:00 PM,Y10 Set up for assmbly the chairs,1:30:00 PM
+Jason Ferns,Thursday 29/10/26,1:00:00 PM,Y10 Set up for assembly the chairs,1:30:00 PM
+Julie Ruming,Thursday 29/10/26,1:00:00 PM,Y10 Set up for assembly the chairs,6:00:00 PM
+Lisa Pearson,Thursday 29/10/26,1:30:00 PM,Pack up office,3:00:00 PM
+Annalissa Roy,Thursday 29/10/26,1:30:00 PM,Dorm Supervision,3:00:00 PM
+Joshua Bowman,Thursday 29/10/26,1:30:00 PM,Dorm Supervision,3:00:00 PM
+Dishanka Aikens,Thursday 29/10/26,1:30:00 PM,Dorm Supervision,3:00:00 PM
+Connor Boyko,Thursday 29/10/26,1:30:00 PM,Y10 Collaroy Activities,3:00:00 PM
+Cassandra Kaloudis,Thursday 29/10/26,1:30:00 PM,Y10 Collaroy Activities,3:00:00 PM
+Jaclyn Crawford,Thursday 29/10/26,1:30:00 PM,Y10 Collaroy Activities,3:00:00 PM
+Fiona Boneham,Thursday 29/10/26,1:30:00 PM,Y10 Collaroy Activities,3:00:00 PM
+Michael Kelly,Thursday 29/10/26,1:30:00 PM,Y10 Collaroy Activities,3:00:00 PM
+Roshni Singh,Thursday 29/10/26,1:30:00 PM,Well Being room ,3:00:00 PM
+Alexandria Lunguly,Thursday 29/10/26,2:30:00 PM,Roll Call / Bus to Collaroy Group A,3:00:00 PM
+Scott Warner,Thursday 29/10/26,2:30:00 PM,Roll Call / Bus to Collaroy Group A,3:00:00 PM
+Evie Core,Thursday 29/10/26,2:30:00 PM,Roll Call / Bus to Collaroy Group A,6:00:00 PM
+Benetta Townsend,Thursday 29/10/26,2:30:00 PM,Roll Call / Bus to Collaroy Group A,3:00:00 PM
+Janet Matthews,Thursday 29/10/26,2:30:00 PM,Roll Call / Bus to Collaroy Group B,3:00:00 PM
+Rob Taylor,Thursday 29/10/26,2:30:00 PM,Roll Call / Bus to Collaroy Group B,3:00:00 PM
+Leah Ashe,Thursday 29/10/26,2:30:00 PM,Roll Call / Bus to Collaroy Group B,3:00:00 PM
+Adam Willis,Thursday 29/10/26,2:30:00 PM,Roll Call / Bus to Collaroy Group C,6:00:00 PM
+Claire Houston,Thursday 29/10/26,2:30:00 PM,Drive to Collaroy,3:00:00 PM
+Peta Yaxley,Thursday 29/10/26,3:00:00 PM,Afternoon Tea,6:00:00 PM
+Cathy Crouch,Thursday 29/10/26,3:00:00 PM,Afternoon Tea,6:30:00 PM
+Phoebe Jennings,Thursday 29/10/26,3:00:00 PM,Afternoon Tea,6:00:00 PM
+Agnieszka Wiklendt,Thursday 29/10/26,3:00:00 PM,Afternoon Tea,6:00:00 PM
+Christopher Hayden,Thursday 29/10/26,3:00:00 PM,Well being room / assembly,6:00:00 PM
+Lisa Pearson,Thursday 29/10/26,3:30:00 PM,Walk to Assembly,10:00:00 PM
+Alexandria Lunguly,Thursday 29/10/26,3:30:00 PM,Walk to Assembly,6:00:00 PM
+Scott Warner,Thursday 29/10/26,3:30:00 PM,Walk to Assembly,9:30:00 PM
+Benetta Townsend,Thursday 29/10/26,3:30:00 PM,Walk to Assembly,6:00:00 PM
+Janet Matthews,Thursday 29/10/26,3:30:00 PM,Walk to Assembly,6:00:00 PM
+Annalissa Roy,Thursday 29/10/26,3:30:00 PM,Walk to Assembly,9:30:00 PM
+Rob Taylor,Thursday 29/10/26,3:30:00 PM,Walk to Assembly,6:00:00 PM
+Leah Ashe,Thursday 29/10/26,3:30:00 PM,Walk to Assembly,9:30:00 PM
+Claire Houston,Thursday 29/10/26,3:30:00 PM,Walk to Assembly,6:00:00 PM
+Joshua Bowman,Thursday 29/10/26,3:30:00 PM,Walk to Assembly,9:30:00 PM
+Dishanka Aikens,Thursday 29/10/26,3:30:00 PM,Walk to Assembly,6:00:00 PM
+Beth Hodson,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,5:30:00 PM
+Thomas Kelly,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Connor Boyko,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Susan  Byrne,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Cassandra Kaloudis,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Jaclyn Crawford,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:30:00 PM
+Jeffrey Larsen,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Morgan Witt,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Helen Spencer,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Evan Hefer,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Fiona Boneham,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Michael Kelly,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Ashley Rose,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Roshni Singh,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Virginia Cluff,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Chris Robertson,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Carolyn Hungerford,Thursday 29/10/26,3:30:00 PM,Roll call/ Move students into Auditorium,6:00:00 PM
+Walter Cisneros,Thursday 29/10/26,4:00:00 PM,Assembly at 4pm at the Collaroy Auditorium,5:00:00 PM
+Walter Cisneros,Thursday 29/10/26,5:00:00 PM,Assembly at 4pm at the Collaroy Auditorium,6:00:00 PM
+Alexandria Lunguly,Thursday 29/10/26,6:30:00 PM,Silent Disco,9:30:00 PM
+Evie Core,Thursday 29/10/26,6:30:00 PM,Silent Disco,9:30:00 PM
+Benetta Townsend,Thursday 29/10/26,6:30:00 PM,Dorm Supervision,9:30:00 PM
+Janet Matthews,Thursday 29/10/26,6:30:00 PM,Board Games,9:30:00 PM
+Rob Taylor,Thursday 29/10/26,6:30:00 PM,Pack up office,9:30:00 PM
+Adam Willis,Thursday 29/10/26,6:30:00 PM,Board Games,9:30:00 PM
+Claire Houston,Thursday 29/10/26,6:30:00 PM,Silent Disco,9:30:00 PM
+Ellen Leggett,Thursday 29/10/26,6:30:00 PM,Y7 Silent Disco/Board Games,9:30:00 PM
+Amy Sterjovski,Thursday 29/10/26,6:30:00 PM,Y7 Silent Disco/Board Games,9:30:00 PM
+Jason Webb,Thursday 29/10/26,6:30:00 PM,Y7 Silent Disco/Board Games,9:30:00 PM
+Silvia Rudmann,Thursday 29/10/26,6:30:00 PM,Y7 Silent Disco/Board Games,10:00:00 PM
+Susan  Byrne,Thursday 29/10/26,6:30:00 PM,Dinner Duty,7:00:00 PM
+Nicholas Short,Thursday 29/10/26,6:30:00 PM,Dinner Duty,7:00:00 PM
+Abbie French,Thursday 29/10/26,6:30:00 PM,Y9 Roll Call,8:30:00 PM
+Evan Hefer,Thursday 29/10/26,6:30:00 PM,Y9 Roll Call,7:30:00 PM
+Fiona Boneham,Thursday 29/10/26,6:30:00 PM,Y10 Roll Call,9:30:00 PM
+Phoebe Jennings,Thursday 29/10/26,6:30:00 PM,Y8 Roll Call,9:30:00 PM
+Agnieszka Wiklendt,Thursday 29/10/26,6:30:00 PM,Y10 Roll call,9:30:00 PM
+Michael Kelly,Thursday 29/10/26,6:30:00 PM,Dinner Duty,7:00:00 PM
+Ashley Rose,Thursday 29/10/26,6:30:00 PM,Dinner Duty,7:00:00 PM
+Roshni Singh,Thursday 29/10/26,6:30:00 PM,Dinner Duty,7:00:00 PM
+Jaclyn Crawford,Thursday 29/10/26,7:00:00 PM,Y8 Roll Call,10:00:00 PM
+Thomas Kelly,Thursday 29/10/26,7:30:00 PM,Todd Sampson,9:30:00 PM
+Peta Yaxley,Thursday 29/10/26,7:30:00 PM,Todd Sampson,8:30:00 PM
+Connor Boyko,Thursday 29/10/26,7:30:00 PM,Todd Sampson,9:30:00 PM
+Susan  Byrne,Thursday 29/10/26,7:30:00 PM,Todd Sampson,9:30:00 PM
+Cassandra Kaloudis,Thursday 29/10/26,7:30:00 PM,Todd Sampson,8:30:00 PM
+Nicholas Short,Thursday 29/10/26,7:30:00 PM,Todd Sampson,8:30:00 PM
+Kristy Neilson,Thursday 29/10/26,7:30:00 PM,Todd Sampson,8:30:00 PM
+Karen Bellamy,Thursday 29/10/26,7:30:00 PM,Todd Sampson',8:30:00 PM
+Cathy Crouch,Thursday 29/10/26,7:30:00 PM,Todd Sampson,10:00:00 PM
+Morgan Witt,Thursday 29/10/26,7:30:00 PM,Todd Sampson,8:30:00 PM
+Helen Spencer,Thursday 29/10/26,7:30:00 PM,Todd Sampson,8:30:00 PM
+Mahez Tariq,Thursday 29/10/26,7:30:00 PM,Todd Sampson,8:30:00 PM
+Emma King,Thursday 29/10/26,7:30:00 PM,Todd Sampson,9:30:00 PM
+Ruby Fuller,Thursday 29/10/26,7:30:00 PM,Todd Sampson,9:30:00 PM
+Michael Kelly,Thursday 29/10/26,7:30:00 PM,Todd Sampson,9:30:00 PM
+Ashley Rose,Thursday 29/10/26,7:30:00 PM,Todd Sampson,9:30:00 PM
+Roshni Singh,Thursday 29/10/26,7:30:00 PM,Todd Sampson,9:30:00 PM
+Christopher Hayden,Thursday 29/10/26,7:30:00 PM,Todd Sampson,10:00:00 PM
+Walter Cisneros,Thursday 29/10/26,7:30:00 PM,Todd Sampson,8:30:00 PM
+Julie Ruming,Thursday 29/10/26,7:30:00 PM,Todd Sampson,10:00:00 PM
+Virginia Cluff,Thursday 29/10/26,7:30:00 PM,Todd Sampson,8:30:00 PM
+Chris Robertson,Thursday 29/10/26,7:30:00 PM,Todd Sampson,8:30:00 PM
+Carolyn Hungerford,Thursday 29/10/26,7:30:00 PM,Todd Sampson,8:30:00 PM
+Dishanka Aikens,Thursday 29/10/26,8:00:00 PM,Bus Assembly,9:30:00 PM
+Sarah Martin,Thursday 29/10/26,8:00:00 PM,Bus assembly Upper Dining Hall ,9:30:00 PM
+Fletcher Aldous,Thursday 29/10/26,8:00:00 PM,Bus assembly Upper Dining Hall ,9:30:00 PM
+Scott Herdman,Thursday 29/10/26,8:00:00 PM,Bus assembly Upper Dining Hall ,9:30:00 PM
+Shikshya Bagale,Thursday 29/10/26,8:00:00 PM,Bus assembly Upper Dining Hall ,10:00:00 PM
+Michelle Nicholls,Thursday 29/10/26,8:00:00 PM,Bus assembly Upper Dining Hall ,10:00:00 PM
+Susanna Trikilis,Thursday 29/10/26,8:30:00 PM,Medication,9:30:00 PM
+Susanna Trikilis,Thursday 29/10/26,9:30:00 PM,Medication,10:00:00 PM
+Scott Warner,Friday 30/10/26,4:30:00 AM,Wake up students,4:30:00 PM
+Benetta Townsend,Friday 30/10/26,4:30:00 AM,Wake up students,4:30:00 PM
+Rob Taylor,Friday 30/10/26,4:30:00 AM,Wake up students,4:30:00 PM
+Leah Ashe,Friday 30/10/26,4:30:00 AM,Wake up students,4:30:00 PM
+Claire Houston,Friday 30/10/26,4:30:00 AM,Meds,1:30:00 PM
+Ellen Leggett,Friday 30/10/26,4:30:00 AM,Wake up students ,9:00:00 AM
+Sarah Martin,Friday 30/10/26,4:30:00 AM,Bus 11 Port Macquarie,2:00:00 PM
+Amy Sterjovski,Friday 30/10/26,4:30:00 AM,Wake up students ,8:30:00 AM
+Fletcher Aldous,Friday 30/10/26,4:30:00 AM,Bus 11 Port Macquarie,2:00:00 PM
+Scott Herdman,Friday 30/10/26,4:30:00 AM,Bus 13 Cooma,2:00:00 PM
+Jason Webb,Friday 30/10/26,4:30:00 AM,Wake Up stuents ,9:00:00 AM
+Shikshya Bagale,Friday 30/10/26,4:30:00 AM,Bus 1 Moree,4:00:00 PM
+Michelle Nicholls,Friday 30/10/26,4:30:00 AM,Bus 8 Coffs,3:30:00 PM
+Silvia Rudmann,Friday 30/10/26,4:30:00 AM,Medication,9:00:00 AM
+Thomas Kelly,Friday 30/10/26,4:30:00 AM,Bus 1 Moree,4:00:00 PM
+Peta Yaxley,Friday 30/10/26,4:30:00 AM,Bus 10 Ballina,4:00:00 PM
+Connor Boyko,Friday 30/10/26,4:30:00 AM,Bus 14 Dubbo,3:00:00 PM
+Susan  Byrne,Friday 30/10/26,4:30:00 AM,Bus 14 Dubbo,3:00:00 PM
+Cassandra Kaloudis,Friday 30/10/26,4:30:00 AM,Bus 15 Bowral/arirport,3:30:00 PM
+Jaclyn Crawford,Friday 30/10/26,4:30:00 AM,Wake up Girls Dorms,8:30:00 AM
+Nicholas Short,Friday 30/10/26,4:30:00 AM,Bus 10 Ballina,4:00:00 PM
+Kristy Neilson,Friday 30/10/26,4:30:00 AM,Bus 16 Griffith,4:00:00 PM
+Jason Ferns,Friday 30/10/26,4:30:00 AM,Bus 10 Ballina,4:00:00 PM
+Karen Bellamy,Friday 30/10/26,4:30:00 AM,Bus 10 Ballina,4:00:00 PM
+Jeffrey Larsen,Friday 30/10/26,4:30:00 AM,Bus 15 Bowral/arirport,4:00:00 PM
+Susanna Trikilis,Friday 30/10/26,4:30:00 AM,Bus 15 Bowral/arirport,4:00:00 PM
+Abbie French,Friday 30/10/26,4:30:00 AM,Bus 16 Griffith,4:00:00 PM
+Cathy Crouch,Friday 30/10/26,4:30:00 AM,Bus 2 Armidale,4:00:00 PM
+Morgan Witt,Friday 30/10/26,4:30:00 AM,Bus 4 West Wyalong,4:00:00 PM
+Helen Spencer,Friday 30/10/26,4:30:00 AM,Bus 6 Albury,4:00:00 PM
+Mahez Tariq,Friday 30/10/26,4:30:00 AM,Bus 9 Parkes,2:30:00 PM
+Emma King,Friday 30/10/26,4:30:00 AM,Wake Up Girls Dorms,9:00:00 AM
+Evan Hefer,Friday 30/10/26,4:30:00 AM,Bus 3 HAY ,4:00:00 PM
+Fiona Boneham,Friday 30/10/26,4:30:00 AM,Bus 4 West Wyalong,4:00:00 PM
+Ruby Fuller,Friday 30/10/26,4:30:00 AM,Bus 5 Ulladulla,3:00:00 PM
+Phoebe Jennings,Friday 30/10/26,4:30:00 AM,Bus 6 Albury,4:00:00 PM
+Agnieszka Wiklendt,Friday 30/10/26,4:30:00 AM,Bus 9 Parkes,2:30:00 PM
+Michael Kelly,Friday 30/10/26,4:30:00 AM,Wake Up boys Dorms,9:00:00 AM
+Ashley Rose,Friday 30/10/26,4:30:00 AM,Wake up Girls Dorms,9:00:00 AM
+Roshni Singh,Friday 30/10/26,4:30:00 AM,Wake up Girls Dorms,9:00:00 AM
+Hayley Laurie,Friday 30/10/26,4:30:00 AM,Bus 2 Armidale,3:00:00 PM
+Christopher Hayden,Friday 30/10/26,4:30:00 AM,Bus 15 Bowral,3:00:00 PM
+Walter Cisneros,Friday 30/10/26,4:30:00 AM,Bus 5 Ulladulla,3:00:00 PM
+Julie Ruming,Friday 30/10/26,4:30:00 AM,Medications,7:30:00 AM
+Virginia Cluff,Friday 30/10/26,4:30:00 AM,Supervise Students in the Auditorium/ Dining Area,7:30:00 AM
+Chris Robertson,Friday 30/10/26,4:30:00 AM,Supervise Students in the Auditorium/ Dining Area,7:30:00 AM
+Carolyn Hungerford,Friday 30/10/26,4:30:00 AM,Supervise Students in the Auditorium/ Dining Area,7:30:00 AM
+Lisa Pearson,Friday 30/10/26,5:00:00 AM,Breakfast Supervision,1:30:00 PM
+Alexandria Lunguly,Friday 30/10/26,5:00:00 AM,Breakfast Supervision,1:30:00 PM
+Evie Core,Friday 30/10/26,5:00:00 AM,Check out Y5,1:30:00 PM
+Janet Matthews,Friday 30/10/26,5:00:00 AM,Check out Y5,1:30:00 PM
+Joshua Bowman,Friday 30/10/26,5:00:00 AM,Check out Y5,1:30:00 PM
+Chiya Beemster,Friday 30/10/26,5:00:00 AM,Year 7 Check out,9:00:00 AM
+Annalissa Roy,Friday 30/10/26,5:30:00 AM,Supervision,4:30:00 PM
+Adam Willis,Friday 30/10/26,5:30:00 AM,Supervision,6:30:00 AM
+Adam Willis,Friday 30/10/26,6:30:00 AM,Bus 13 Cooma,7:30:00 AM
+Adam Willis,Friday 30/10/26,7:30:00 AM,Bus 13 Cooma,8:30:00 AM
+Adam Willis,Friday 30/10/26,8:30:00 AM,Bus 13 Cooma,9:30:00 AM
+Adam Willis,Friday 30/10/26,9:30:00 AM,Bus 13 Cooma,10:30:00 AM
+Adam Willis,Friday 30/10/26,10:30:00 AM,Bus 13 Cooma,11:30:00 AM
+Adam Willis,Friday 30/10/26,11:30:00 AM,Bus 13 Cooma,12:30:00 PM
+Adam Willis,Friday 30/10/26,12:30:00 PM,Bus 13 Cooma,1:30:00 PM
+Adam Willis,Friday 30/10/26,1:30:00 PM,Bus 13 Cooma,2:30:00 PM
+Adam Willis,Friday 30/10/26,2:30:00 PM,Bus 13 Cooma,3:30:00 PM
+Adam Willis,Friday 30/10/26,3:30:00 PM,Bus 13 Cooma,4:30:00 PM
