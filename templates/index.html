@@ -20,9 +20,9 @@
     <div class="sm:container">
       <h1>Staff</h1>
       <div class="list-group col-4 py-4">
-        {% for staff in r.stafflist %}
+        {% for staff in r.staff.values() %}
         <a
-          href="/staff/{{ staff.index }}"
+          href="/staff/{{ staff.number }}"
           class="list-group-item list-group-item-action"
           aria-current="true"
         >
@@ -37,7 +37,7 @@
       <div class="container text-center">
         {% for duty in r.duties %}
         <div class="row">
-          <div class="col">{{ duty.name }}</div>
+          <div class="col">{{ r.names(duty.staff) | join(", ") }}</div>
           <div class="col">{{ duty.duty }}</div>
           <div class="col">{{ duty.start }}–{{ duty.end }}</div>
         </div>

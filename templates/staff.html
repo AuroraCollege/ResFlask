@@ -2,7 +2,7 @@
 <html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="utf-8" />
-    <title>{{ name }}</title>
+    <title>{{ staff.name }}</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,22 +18,28 @@
   </head>
   <body>
     <div class="sm:container">
-      <h1>{{ name }}</h1>
-      <div class="list-group col-4 py-4">
-        {% for duty in r.duties %} {% if duty.name == name %}
-
+      <h1>{{ staff.name }}</h1>
+      <div class="col-4 py-4">
+        {% for duty in duties %}
+        {% if loop.first or duty.day != loop.previtem.day %}
+        <details class="mb-3">
+          <summary class="h4">{{ duty.day }}</summary>
+          <div class="list-group">
+        {% endif %}
         <div class="list-group-item list-group-item-action py-4">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">{{ duty.duty }}</h5>
-            <small class="fg-2">{{ duty.name }}</small>
           </div>
-          <p class="mb-1">{{ duty.day }}<p></p>{{ duty.start }}–{{ duty.end }}</p>
+          <p class="mb-1">{{ duty.start }}–{{ duty.end }}</p>
           <small class="fg-2"
-            >{% for name in duty.otherstaff %} {{ name }} {% endfor %}</small
+            >{{ r.names(duty.staff | reject("eq", staff.number)) | join(", ") }}</small
           >
         </div>
-
-        {% endif %} {% endfor %}
+        {% if loop.last or duty.day != loop.nextitem.day %}
+          </div>
+        </details>
+        {% endif %}
+        {% endfor %}
       </div>
     </div>
   </body>

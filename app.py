@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, abort, render_template
 
 from load import Roster, load
 
@@ -13,13 +13,13 @@ def index():
     return render_template("index.html", r=r)
 
 
-@app.route("/staff/<slug>")
-def staff(slug):
-    name = None
-    for staff in r.stafflist:
-        if staff.index == int(slug):
-            name = staff.name
-    return render_template("staff.html", r=r, name=name)
+@app.route("/staff/<int:number>")
+def staff(number):
+    if number not in r.staff:
+        abort(404)
+    return render_template(
+        "staff.html", r=r, staff=r.staff[number], duties=r.duties_for(number)
+    )
 
 
 if __name__ == "__main__":
