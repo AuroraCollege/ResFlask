@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}Full roster{% endblock %}
+
+{% block content %}
+<h1>Roster</h1>
+
+{% for day, day_duties in r.by_day().items() %}
+<details class="mb-4">
+  <summary class="h4">{{ day }}</summary>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Staff</th>
+        <th scope="col">Duty</th>
+        <th scope="col">Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for duty in day_duties %}
+      <tr>
+        <td>{{ r.names(duty.staff) | join(", ") }}</td>
+        <td>{{ duty.duty }}</td>
+        <td>{{ duty.start }}–{{ duty.end }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</details>
+{% endfor %}
+{% endblock %}

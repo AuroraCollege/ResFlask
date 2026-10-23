@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: resflask
+    runtime: static
+    buildCommand: pip install -r requirements.txt && python build.py
+    staticPublishPath: ./public

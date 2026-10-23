@@ -13,7 +13,19 @@ def index():
     return render_template("index.html", r=r)
 
 
-@app.route("/staff/<int:number>")
+@app.route("/full/")
+def full():
+    return render_template("full.html", r=r)
+
+
+@app.route("/groups/<int:year>/")
+def group(year):
+    if year not in r.groups:
+        abort(404)
+    return render_template("group.html", r=r, year=year, duties=r.groups[year])
+
+
+@app.route("/staff/<int:number>/")
 def staff(number):
     if number not in r.staff:
         abort(404)

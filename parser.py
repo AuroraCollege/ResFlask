@@ -19,7 +19,9 @@ def get_times(f):
     with open(f, mode="r") as file:
         reader = csv.DictReader(file)
         for row in reader:
-            times.append(row["Time"])
+            # Skip continuation rows (extra lines of a cell above)
+            if row["Time"].strip():
+                times.append(row["Time"])
     return times
 
 
@@ -65,6 +67,9 @@ def get_duties(file, staff, staffdict):
         headers = reader.fieldnames
         duties = []
         for row in reader:
+            # Skip continuation rows (extra lines of a cell above)
+            if not row[headers[0]].strip():
+                continue
             for s in staff:
                 if row[s].strip() not in junk_duties:
                     duty = next(
@@ -145,10 +150,68 @@ def combine_times(duties, times):
     for d in duties:
         d.end = times[times.index(d.time) + 1]
         for e in duties:
-            if d.staff == e.staff and d.day == e.day and d.end == e.time:
+            if (
+                d.staff == e.staff
+                and d.day == e.day
+                and d.end == e.time
+                and d.duty == e.duty
+            ):
                 e.display()
                 duties.remove(e)
                 d.end = times[times.index(e.time) + 1]
+
+
+# Year group column in yeargroups.csv -> column header in com.csv
+GROUPS = {
+    "Y5": "Y5 (145) Narrabeen",
+    "Y7": "Year 7 (107) Narrabeen",
+    "Y8": "Year 8 (128) Collaroy",
+    "Y9": "Year 9 (100) Collaroy",
+    "Y10": "Year 10 (62) Collaroy",
+}
+
+
+def get_groups(file):
+    with open(file) as csvfile:
+        reader = csv.DictReader(csvfile)
+        headers = reader.fieldnames
+        # Match headers ignoring stray whitespace/newlines
+        columns = {h.strip(): h for h in headers}
+        rows = []
+        for row in reader:
+            day = row[headers[0]]
+            # Skip the "Activity" header row and continuation rows
+            if not day.strip() or day == "Day":
+                continue
+            group_row = {"Day": day, "Time": row[headers[1]], "End": None}
+            for group, column in GROUPS.items():
+                group_row[group] = row[columns[column]].strip()
+            rows.append(group_row)
+        return rows
+
+
+def combine_group_times(rows, times):
+    combined = []
+    for row in rows:
+        row["End"] = times[times.index(row["Time"]) + 1]
+        prev = combined[-1] if combined else None
+        if (
+            prev
+            and prev["Day"] == row["Day"]
+            and prev["End"] == row["Time"]
+            and all(prev[g] == row[g] for g in GROUPS)
+        ):
+            prev["End"] = row["End"]
+        else:
+            combined.append(row)
+    return combined
+
+
+def write_groups(rows):
+    with open("yeargroups.csv", mode="w") as outfile:
+        writer = csv.DictWriter(outfile, ["Day", "Time", "End", *GROUPS])
+        writer.writeheader()
+        writer.writerows(rows)
 
 
 def make_staff_dict(staff):
@@ -176,3 +239,7 @@ if __name__ == "__main__":
     write_duties(duties)
 
     write_staff(staffdict)
+
+    groups = combine_group_times(get_groups(f), times)
+
+    write_groups(groups)

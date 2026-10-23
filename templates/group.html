@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}Year {{ year }}{% endblock %}
+
+{% block content %}
+<h1>Year {{ year }}</h1>
+<div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 py-4">
+  {% for day, day_duties in r.by_day(duties).items() %}
+  <div class="col">
+    <details>
+      <summary class="h4">{{ day }}</summary>
+      <div class="list-group">
+        {% for duty in day_duties %}
+        <div class="list-group-item list-group-item-action py-4">
+          <h5 class="mb-1">{{ duty.duty }}</h5>
+          <p class="mb-1">{{ duty.start }}–{{ duty.end }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </details>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
