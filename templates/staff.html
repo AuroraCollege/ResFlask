@@ -1,6 +1,17 @@
 {% extends "layout.html" %} {% block title %}{{ staff.name }}{% endblock %} {%
 block content %}
-<h1>{{ staff.name }}</h1>
+<div class="d-flex align-items-center gap-3">
+  <h1>{{ staff.name }}</h1>
+  <button
+    type="button"
+    id="pin-button"
+    class="btn btn-outline theme-primary"
+    data-url="{{ url_for('staff', number=staff.number) }}"
+    data-name="{{ staff.name.split()[0] }}"
+  >
+    Pin to nav
+  </button>
+</div>
 <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 py-4">
   {% for day, day_duties in r.by_day(duties).items() %}
   <div class="col">
