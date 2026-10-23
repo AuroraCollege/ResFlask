@@ -156,7 +156,7 @@ def combine_times(duties, times):
                 and d.end == e.time
                 and d.duty == e.duty
             ):
-                e.display()
+                # e.display()
                 duties.remove(e)
                 d.end = times[times.index(e.time) + 1]
 
@@ -221,9 +221,7 @@ def make_staff_dict(staff):
     return staffdict
 
 
-if __name__ == "__main__":
-    f = "com.csv"
-
+def parse(f="com.csv"):
     staff = get_staff_names(f)
 
     staffdict = make_staff_dict(staff)
@@ -243,3 +241,7 @@ if __name__ == "__main__":
     groups = combine_group_times(get_groups(f), times)
 
     write_groups(groups)
+
+
+if __name__ == "__main__":
+    parse()

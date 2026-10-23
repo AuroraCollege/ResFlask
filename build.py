@@ -3,7 +3,12 @@ from pathlib import Path
 
 from flask import url_for
 
-from app import app, r
+import parser
+
+# Regenerate the CSVs from com.csv before app is imported, since app loads them on import
+parser.parse()
+
+from app import app, r  # noqa: E402
 
 OUT = Path("public")
 
