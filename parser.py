@@ -60,6 +60,7 @@ def get_duties(file, staff, staffdict):
         "Coll- Science",
         "Coll- Wellbeing",
         "Coll- Exec",
+        "Welcome to Res",
     ]
 
     with open(file) as csvfile:
@@ -78,7 +79,7 @@ def get_duties(file, staff, staffdict):
                             for d in duties
                             if d.day == row[headers[0]]
                             and d.time == row[headers[1]]
-                            and d.duty == row[s]
+                            and d.duty.lower() == row[s].lower()
                         ),
                         None,
                     )
