@@ -25,7 +25,8 @@ block content %}
           </div>
           <p class="mb-1">{{ duty.start }}–{{ duty.end }}</p>
           <small class="fg-2">
-            {{ r.names(duty.staff | reject("eq", staff.number)) | join(", ") }}
+            {% if duty.staff|length > 1 %} With {{ r.names(duty.staff |
+            reject("eq", staff.number)) | join(", ") }} {% endif %}
           </small>
         </div>
         {% endfor %}
