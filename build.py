@@ -20,6 +20,8 @@ def pages():
         yield url_for("staff", number=number)
     for year in r.groups:
         yield url_for("group", year=year)
+    for site in ["Narrabeen", "Collaroy"]:
+        yield url_for("maps", site=site)
 
 
 def build():
