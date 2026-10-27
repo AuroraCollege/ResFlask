@@ -45,6 +45,12 @@ def get_staff_names(file):
     return staff_names
 
 
+def get_staff_locations(file):
+    with open(file) as csvfile:
+        reader = csv.DictReader(csvfile)
+        return next(reader, 0)
+
+
 def get_duties(file, staff, staffdict):
     junk_duties = [
         "Day",
@@ -133,12 +139,12 @@ def write_duties(duties):
             writer.writerow([duty.staff, duty.day, duty.time, duty.duty, duty.end])
 
 
-def write_staff(staff_dict):
+def write_staff(staff_dict, staff_locations):
     with open("staff.csv", mode="w") as outfile:
         writer = csv.writer(outfile)
-        writer.writerow(["number", "name"])
+        writer.writerow(["number", "name", "site"])
         for name, number in staff_dict.items():
-            writer.writerow([number, name])
+            writer.writerow([number, name, staff_locations[name][:1]])
 
 
 def get_headers(file):
@@ -227,6 +233,8 @@ def parse(f="com.csv"):
 
     staffdict = make_staff_dict(staff)
 
+    staff_locations = get_staff_locations(f)  # TODO
+
     duties = get_duties(f, staff, staffdict)
 
     print(len(duties), " duties")
@@ -237,7 +245,7 @@ def parse(f="com.csv"):
 
     write_duties(duties)
 
-    write_staff(staffdict)
+    write_staff(staffdict, staff_locations)
 
     groups = combine_group_times(get_groups(f), times)
 

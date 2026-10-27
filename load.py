@@ -15,9 +15,10 @@ class Duty:
 
 
 class Staff:
-    def __init__(self, number, name):
+    def __init__(self, number, name, site):
         self.number = number
         self.name = name
+        self.site = site
 
 
 class Roster:
@@ -44,7 +45,7 @@ def load(r):
     with open("staff.csv") as csvfile:
         for row in csv.DictReader(csvfile):
             number = int(row["number"])
-            r.staff[number] = Staff(number, row["name"])
+            r.staff[number] = Staff(number, row["name"], row["site"])
 
     with open("duties.csv") as csvfile:
         for row in csv.DictReader(csvfile):

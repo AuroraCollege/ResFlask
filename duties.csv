@@ -1,6 +1,5 @@
 staff,day,time,duty,end
 "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",Monday 26/10/26,6:00:00 AM,,6:30:00 AM
-"[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]",Monday 26/10/26,6:00:00 AM,Welcome to Res,6:30:00 AM
 "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 18, 19, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 33, 37, 38, 39, 40, 41, 42, 43, 45, 46, 47, 48, 49, 51, 52, 53, 54, 55, 56, 57, 58, 59]",Monday 26/10/26,6:30:00 AM,,7:00:00 AM
 "[14, 16]",Monday 26/10/26,6:30:00 AM,Bus 11 Port Macquarie,4:00:00 PM
 [17],Monday 26/10/26,6:30:00 AM,Bus 13 Cooma,9:00:00 AM
@@ -31,8 +30,7 @@ staff,day,time,duty,end
 "[2, 39, 53]",Monday 26/10/26,11:00:00 AM,Bus 2 Armidale,5:00:00 PM
 "[12, 13, 15, 18, 19, 22, 23, 24, 25, 26, 31, 43, 49, 51, 52, 54, 56, 57, 58, 59]",Monday 26/10/26,11:00:00 AM,,12:00:00 PM
 "[12, 52, 54]",Monday 26/10/26,12:00:00 PM,,12:30:00 PM
-"[13, 15, 18, 19, 22, 23, 24, 25, 26, 31]",Monday 26/10/26,12:00:00 PM,Set up Site,3:00:00 PM
-"[43, 49, 51, 56, 57, 58, 59]",Monday 26/10/26,12:00:00 PM,Set Up Site,3:00:00 PM
+"[13, 15, 18, 19, 22, 23, 24, 25, 26, 31, 43, 49, 51, 56, 57, 58, 59]",Monday 26/10/26,12:00:00 PM,Set up Site,3:00:00 PM
 "[7, 54]",Monday 26/10/26,12:30:00 PM,Bus 15 Bowral,5:00:00 PM
 "[12, 52]",Monday 26/10/26,12:30:00 PM,,1:30:00 PM
 "[12, 52]",Monday 26/10/26,1:30:00 PM,,4:00:00 PM
@@ -43,13 +41,13 @@ staff,day,time,duty,end
 "[15, 18]",Monday 26/10/26,3:00:00 PM,Sign in Year 7 ,5:00:00 PM
 [19],Monday 26/10/26,3:00:00 PM,Supervise  Boys Dorms,6:00:00 PM
 [22],Monday 26/10/26,3:00:00 PM,Supervise Students in Dining hall ,6:00:00 PM
-"[23, 26, 31]",Monday 26/10/26,3:00:00 PM,Set up Site,3:30:00 PM
+"[23, 26, 31, 43, 49, 51, 57, 58, 59]",Monday 26/10/26,3:00:00 PM,Set up Site,3:30:00 PM
 "[24, 25]",Monday 26/10/26,3:00:00 PM,Office,5:30:00 PM
-"[43, 49, 51, 57, 58, 59]",Monday 26/10/26,3:00:00 PM,Set Up Site,4:00:00 PM
 [56],Monday 26/10/26,3:00:00 PM,Collect Medications,3:30:00 PM
 [23],Monday 26/10/26,3:30:00 PM,Collect Medication,5:00:00 PM
 [26],Monday 26/10/26,3:30:00 PM,Year 10 Check in ,6:00:00 PM
 "[31, 56]",Monday 26/10/26,3:30:00 PM,Collect Medications,5:00:00 PM
+"[43, 49, 51, 57, 58, 59]",Monday 26/10/26,3:30:00 PM,Set Up Site,4:00:00 PM
 "[0, 1, 11]",Monday 26/10/26,4:00:00 PM,Dorm Supervision,6:00:00 PM
 [9],Monday 26/10/26,4:00:00 PM,Bus 13 Cooma,5:30:00 PM
 "[12, 14, 16, 17, 52, 57, 58, 59]",Monday 26/10/26,4:00:00 PM,,4:30:00 PM
@@ -101,11 +99,8 @@ staff,day,time,duty,end
 "[0, 2, 3, 4, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]",Monday 26/10/26,9:30:00 PM,,10:00:00 PM
 "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]",Monday 26/10/26,10:00:00 PM,,6:00:00 AM
 "[0, 1, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 33, 35, 36, 37, 38, 39, 40, 41, 42, 46, 47, 48, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]",Tuesday 27/10/26,7:00:00 AM,,7:30:00 AM
-"[2, 3, 7]",Tuesday 27/10/26,7:00:00 AM,Wake up students,7:30:00 AM
-"[14, 34, 44, 49]",Tuesday 27/10/26,7:00:00 AM,Wake up Students,7:30:00 AM
-[19],Tuesday 27/10/26,7:00:00 AM,Wake up students ,7:30:00 AM
-[28],Tuesday 27/10/26,7:00:00 AM,Wake Up Students,7:30:00 AM
-"[32, 45]",Tuesday 27/10/26,7:00:00 AM,Wake up Students ,7:30:00 AM
+"[2, 3, 7, 14, 28, 34, 44, 49]",Tuesday 27/10/26,7:00:00 AM,Wake up students,7:30:00 AM
+"[19, 32, 45]",Tuesday 27/10/26,7:00:00 AM,Wake up students ,7:30:00 AM
 [43],Tuesday 27/10/26,7:00:00 AM,Wake Up Studnts ,7:30:00 AM
 "[0, 1, 2, 3, 5, 6, 7, 8, 9, 12, 13, 14, 16, 18, 19, 22, 24, 25, 26, 27, 28, 29, 30, 32, 34, 35, 36, 40, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 55, 57, 58, 59]",Tuesday 27/10/26,7:30:00 AM,,8:00:00 AM
 [4],Tuesday 27/10/26,7:30:00 AM,Breakfast supervision (dietaries),8:30:00 AM
@@ -115,8 +110,7 @@ staff,day,time,duty,end
 "[20, 21, 23, 31, 37, 39, 54, 56]",Tuesday 27/10/26,7:30:00 AM,Medication,8:30:00 AM
 [0],Tuesday 27/10/26,8:00:00 AM,Welcome STEMT4L & Setup,8:30:00 AM
 "[1, 2, 6, 7, 8, 12, 14, 15, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 30, 32, 33, 34, 38, 40, 41, 46, 47, 48, 49, 50, 51, 52, 53, 55, 57, 58, 59]",Tuesday 27/10/26,8:00:00 AM,,8:30:00 AM
-[3],Tuesday 27/10/26,8:00:00 AM,Set up maths lesson,8:30:00 AM
-"[5, 9]",Tuesday 27/10/26,8:00:00 AM,set up maths lesson,8:30:00 AM
+"[3, 5, 9]",Tuesday 27/10/26,8:00:00 AM,Set up maths lesson,8:30:00 AM
 "[13, 22, 35, 42]",Tuesday 27/10/26,8:00:00 AM,Breakfast Duty,8:30:00 AM
 [36],Tuesday 27/10/26,8:00:00 AM,Brekfast Duty,8:30:00 AM
 [43],Tuesday 27/10/26,8:00:00 AM,Set up Y8,8:30:00 AM
@@ -175,9 +169,8 @@ staff,day,time,duty,end
 "[1, 2, 3, 4]",Tuesday 27/10/26,1:30:00 PM,Group A: Narrabeen Activities,3:30:00 PM
 "[5, 7, 8, 10]",Tuesday 27/10/26,1:30:00 PM,Group B: Maths Lesson,3:30:00 PM
 "[11, 12]",Tuesday 27/10/26,1:30:00 PM,Group C: STEM T4L Activity,2:30:00 PM
-[26],Tuesday 27/10/26,1:30:00 PM,Y9 Oval supervision,2:30:00 PM
+"[26, 34]",Tuesday 27/10/26,1:30:00 PM,Y9 Oval supervision,2:30:00 PM
 "[29, 38]",Tuesday 27/10/26,1:30:00 PM,Y9 School Photos ,2:30:00 PM
-[34],Tuesday 27/10/26,1:30:00 PM,Y9 Oval Supervision,2:30:00 PM
 [39],Tuesday 27/10/26,1:30:00 PM,Y9 Board Games ,2:30:00 PM
 [40],Tuesday 27/10/26,1:30:00 PM,Y9 Board Games,2:30:00 PM
 [42],Tuesday 27/10/26,1:30:00 PM,Y9 Supervision Photos board games and Oval ,2:30:00 PM
@@ -185,23 +178,21 @@ staff,day,time,duty,end
 [20],Tuesday 27/10/26,2:00:00 PM,Well being room ,2:30:00 PM
 "[0, 11, 12, 21, 26, 28, 32, 34, 36, 40, 42, 52, 56, 57, 58]",Tuesday 27/10/26,2:30:00 PM,,3:00:00 PM
 "[6, 9]",Tuesday 27/10/26,2:30:00 PM,Group C: STEM T4L Activity,3:30:00 PM
-"[14, 20]",Tuesday 27/10/26,2:30:00 PM,well being room ,3:00:00 PM
+"[14, 20, 39]",Tuesday 27/10/26,2:30:00 PM,well being room ,3:00:00 PM
 "[27, 29]",Tuesday 27/10/26,2:30:00 PM,Afternoon Tea,3:00:00 PM
 [38],Tuesday 27/10/26,2:30:00 PM,Y9 School Photos ,3:00:00 PM
-[39],Tuesday 27/10/26,2:30:00 PM,Well Being Room ,3:30:00 PM
 "[0, 11, 12, 20, 21, 27, 29, 30, 31, 34, 35, 36, 37, 41, 42, 44, 45, 48, 49, 52, 53, 56, 57, 58, 59]",Tuesday 27/10/26,3:00:00 PM,,3:30:00 PM
-[14],Tuesday 27/10/26,3:00:00 PM,well being room ,3:30:00 PM
+"[14, 39]",Tuesday 27/10/26,3:00:00 PM,well being room ,3:30:00 PM
 "[26, 28, 32, 38, 40]",Tuesday 27/10/26,3:00:00 PM,Y9 Collaroy Activities,4:30:00 PM
 "[0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 17, 18, 19, 20, 21, 22, 23, 27, 29, 30, 31, 39, 44, 45, 49, 52, 53, 56, 57, 58, 59]",Tuesday 27/10/26,3:30:00 PM,,4:00:00 PM
 "[8, 11]",Tuesday 27/10/26,3:30:00 PM,Afternoon Tea supervision,4:00:00 PM
 "[13, 15]",Tuesday 27/10/26,3:30:00 PM,Afternoon Tea,4:00:00 PM
-"[14, 16]",Tuesday 27/10/26,3:30:00 PM,well being room ,4:00:00 PM
+"[14, 16, 48]",Tuesday 27/10/26,3:30:00 PM,well being room ,4:00:00 PM
 "[34, 35, 36, 37, 41, 42]",Tuesday 27/10/26,3:30:00 PM,Y10 Maths,5:00:00 PM
-[48],Tuesday 27/10/26,3:30:00 PM,Well Being Room ,4:30:00 PM
 "[0, 1, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 15, 18, 21, 23, 27, 29, 30, 31, 33, 39, 43, 44, 45, 46, 47, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]",Tuesday 27/10/26,4:00:00 PM,,4:30:00 PM
 "[2, 12]",Tuesday 27/10/26,4:00:00 PM,dorm supervision,4:30:00 PM
 [7],Tuesday 27/10/26,4:00:00 PM,dorm supervsion,4:30:00 PM
-[16],Tuesday 27/10/26,4:00:00 PM,well being room ,5:00:00 PM
+"[16, 48]",Tuesday 27/10/26,4:00:00 PM,well being room ,4:30:00 PM
 [17],Tuesday 27/10/26,4:00:00 PM,Boy Dorms,4:30:00 PM
 [19],Tuesday 27/10/26,4:00:00 PM,Boys Dorms,4:30:00 PM
 "[20, 22]",Tuesday 27/10/26,4:00:00 PM,Girls Dorms,4:30:00 PM
@@ -209,13 +200,13 @@ staff,day,time,duty,end
 "[2, 3, 4, 6]",Tuesday 27/10/26,4:30:00 PM,board games,5:30:00 PM
 "[10, 11]",Tuesday 27/10/26,4:30:00 PM,school photos,5:30:00 PM
 "[13, 15]",Tuesday 27/10/26,4:30:00 PM,Dinner Duty,5:00:00 PM
+"[16, 51]",Tuesday 27/10/26,4:30:00 PM,well being room ,5:00:00 PM
 [26],Tuesday 27/10/26,4:30:00 PM,Dorm Duty Long Reef,5:30:00 PM
 "[27, 29, 31, 39]",Tuesday 27/10/26,4:30:00 PM,Girls Dorms,5:30:00 PM
 "[49, 54]",Tuesday 27/10/26,4:30:00 PM,Boys Dorms,5:30:00 PM
-[51],Tuesday 27/10/26,4:30:00 PM,Well Being Room ,6:30:00 PM
 "[0, 1, 5, 7, 8, 9, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 30, 32, 33, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 50, 52, 53, 55, 56, 57, 58, 59]",Tuesday 27/10/26,5:00:00 PM,,5:30:00 PM
-[17],Tuesday 27/10/26,5:00:00 PM,Dinner duty,5:30:00 PM
-[18],Tuesday 27/10/26,5:00:00 PM,Dinner Duty,5:30:00 PM
+"[17, 18]",Tuesday 27/10/26,5:00:00 PM,Dinner duty,5:30:00 PM
+[51],Tuesday 27/10/26,5:00:00 PM,Well Being Room ,6:30:00 PM
 "[0, 5]",Tuesday 27/10/26,5:30:00 PM,Dinner Supervision,6:30:00 PM
 "[1, 2, 3, 4, 6, 7, 8, 10, 11, 12, 15, 16, 17, 20, 22, 23, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 39, 41, 42, 44, 45, 46, 47, 48, 49, 50, 52, 53, 54, 55, 56, 57, 58, 59]",Tuesday 27/10/26,5:30:00 PM,,6:00:00 PM
 [9],Tuesday 27/10/26,5:30:00 PM,Dinner Supervision (dietaries),6:30:00 PM
@@ -265,11 +256,9 @@ staff,day,time,duty,end
 [6],Wednesday 28/10/26,7:00:00 AM,Breakfast supervision (dietary),7:30:00 AM
 [8],Wednesday 28/10/26,7:00:00 AM,Breakfast Supervision,7:30:00 AM
 [11],Wednesday 28/10/26,7:00:00 AM,Breakfast supervision ,7:30:00 AM
-[14],Wednesday 28/10/26,7:00:00 AM,Wake Up students,7:30:00 AM
-[16],Wednesday 28/10/26,7:00:00 AM,Wake up Students,7:30:00 AM
+"[14, 16, 28, 29, 45, 46, 47, 49, 51]",Wednesday 28/10/26,7:00:00 AM,Wake Up students,7:30:00 AM
 "[20, 21, 23, 31, 37, 39, 54, 56]",Wednesday 28/10/26,7:00:00 AM,Medication,8:00:00 AM
 [24],Wednesday 28/10/26,7:00:00 AM,Breakfast Duty,7:30:00 AM
-"[28, 29, 45, 46, 47, 49, 51]",Wednesday 28/10/26,7:00:00 AM,Wake Up Students,7:30:00 AM
 [0],Wednesday 28/10/26,7:30:00 AM,Help lay out and set up lunch/morning tea,8:00:00 AM
 "[1, 2, 3, 4]",Wednesday 28/10/26,7:30:00 AM,Roll Call Group A,8:00:00 AM
 "[5, 6, 7, 8]",Wednesday 28/10/26,7:30:00 AM,Roll Call Group B,8:00:00 AM
@@ -305,7 +294,7 @@ staff,day,time,duty,end
 "[21, 25, 26, 27, 28, 29, 31, 32, 34, 35, 38, 41, 46, 48, 50, 52, 53, 57, 58, 59]",Wednesday 28/10/26,10:30:00 AM,,11:00:00 AM
 "[39, 47]",Wednesday 28/10/26,10:30:00 AM,Y8 Morning Tea,11:00:00 AM
 "[42, 43]",Wednesday 28/10/26,10:30:00 AM,Y8 Maths,11:00:00 AM
-[51],Wednesday 28/10/26,10:30:00 AM,Well Being Room ,12:30:00 PM
+[51],Wednesday 28/10/26,10:30:00 AM,Well Being Room ,11:30:00 AM
 "[13, 14, 15, 16]",Wednesday 28/10/26,11:00:00 AM,Y7 English,1:00:00 PM
 "[17, 18, 19]",Wednesday 28/10/26,11:00:00 AM,Y7 Narrabeen,1:00:00 PM
 "[20, 21, 22, 23, 25, 39, 46, 47, 48, 50, 52, 53, 57, 58, 59]",Wednesday 28/10/26,11:00:00 AM,,11:30:00 AM
@@ -314,7 +303,7 @@ staff,day,time,duty,end
 [43],Wednesday 28/10/26,11:00:00 AM,Y8 Maths,12:30:00 PM
 "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",Wednesday 28/10/26,11:30:00 AM,Lunch @ SCG,12:00:00 PM
 "[20, 21, 23, 25, 39, 46, 47, 48, 50, 52, 53, 57, 58, 59]",Wednesday 28/10/26,11:30:00 AM,,12:00:00 PM
-[22],Wednesday 28/10/26,11:30:00 AM,well being room ,1:00:00 PM
+"[22, 51]",Wednesday 28/10/26,11:30:00 AM,well being room ,12:30:00 PM
 "[0, 1, 2, 3, 4]",Wednesday 28/10/26,12:00:00 PM,Bus A to Theatre,12:30:00 PM
 "[5, 6, 7, 8]",Wednesday 28/10/26,12:00:00 PM,Bus B to Theatre,12:30:00 PM
 "[9, 11, 12]",Wednesday 28/10/26,12:00:00 PM,Bus C to Theatre,12:30:00 PM
@@ -322,30 +311,32 @@ staff,day,time,duty,end
 "[20, 21, 23, 24, 25, 39, 46, 47, 48, 50, 52, 53, 57, 58, 59]",Wednesday 28/10/26,12:00:00 PM,,12:30:00 PM
 "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",Wednesday 28/10/26,12:30:00 PM,Lion King,4:00:00 PM
 "[20, 21, 23, 24, 25, 26, 27, 28, 29, 31, 32, 34, 35, 38, 39, 41, 42, 43, 46, 47, 48, 51, 52, 53, 57, 58, 59]",Wednesday 28/10/26,12:30:00 PM,,1:00:00 PM
-[50],Wednesday 28/10/26,12:30:00 PM,Well Being Room ,2:30:00 PM
+"[22, 50]",Wednesday 28/10/26,12:30:00 PM,well being room ,1:00:00 PM
 "[13, 23]",Wednesday 28/10/26,1:00:00 PM,Lunch Duty,1:30:00 PM
 "[14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 52, 53, 57, 58, 59]",Wednesday 28/10/26,1:00:00 PM,,1:30:00 PM
 "[26, 27, 28, 29, 31, 32]",Wednesday 28/10/26,1:00:00 PM,Y8 English - Group 1,2:30:00 PM
 "[34, 35, 38, 39, 41, 42, 43]",Wednesday 28/10/26,1:00:00 PM,Y8 Maths - Group 2,2:30:00 PM
 "[46, 47, 48]",Wednesday 28/10/26,1:00:00 PM,Travel to Narrabeen (Roshni),1:30:00 PM
+[50],Wednesday 28/10/26,1:00:00 PM,Well Being Room ,1:30:00 PM
 [51],Wednesday 28/10/26,1:00:00 PM,Travel to Narrabeen (Driver),1:30:00 PM
 "[13, 16, 24, 25, 52, 53, 57, 58, 59]",Wednesday 28/10/26,1:30:00 PM,,2:30:00 PM
 "[14, 17, 18]",Wednesday 28/10/26,1:30:00 PM,Y7 Narrabeen,3:00:00 PM
-[15],Wednesday 28/10/26,1:30:00 PM,well being room ,3:00:00 PM
+"[15, 50]",Wednesday 28/10/26,1:30:00 PM,well being room ,2:30:00 PM
 "[19, 20, 21, 22, 23, 46, 47, 48, 51]",Wednesday 28/10/26,1:30:00 PM,Y7 Science,3:00:00 PM
 "[13, 16, 24, 25, 26, 27, 28, 29, 31, 32, 34, 38, 39, 41, 42, 43, 50, 52, 57, 58, 59]",Wednesday 28/10/26,2:30:00 PM,,3:00:00 PM
-[35],Wednesday 28/10/26,2:30:00 PM,Well Being Room ,4:30:00 PM
+"[15, 35]",Wednesday 28/10/26,2:30:00 PM,well being room ,3:00:00 PM
 [53],Wednesday 28/10/26,2:30:00 PM,Book Shop,3:00:00 PM
 [13],Wednesday 28/10/26,3:00:00 PM,Travel to Collaroy,3:30:00 PM
 "[14, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 33, 34, 37, 38, 39, 40, 41, 43, 44, 45, 49, 50, 52, 54, 55, 56, 57, 58, 59]",Wednesday 28/10/26,3:00:00 PM,,3:30:00 PM
 "[15, 16, 32, 36]",Wednesday 28/10/26,3:00:00 PM,Afternoon Tea,3:30:00 PM
 "[31, 42, 53]",Wednesday 28/10/26,3:00:00 PM,Book Shop,3:30:00 PM
+[35],Wednesday 28/10/26,3:00:00 PM,Well Being Room ,3:30:00 PM
 "[46, 47, 48]",Wednesday 28/10/26,3:00:00 PM,Travel to Collaroy (Roshni),3:30:00 PM
 [51],Wednesday 28/10/26,3:00:00 PM,Travel to Collaroy (Driver),3:30:00 PM
 "[13, 39]",Wednesday 28/10/26,3:30:00 PM,Trivia Night Prep,5:00:00 PM
 "[14, 17, 24, 25, 26, 27, 29, 30, 31, 32, 33, 36, 37, 40, 42, 45, 49, 52, 54, 55, 56, 57, 58, 59]",Wednesday 28/10/26,3:30:00 PM,,4:30:00 PM
 "[15, 16]",Wednesday 28/10/26,3:30:00 PM,Y7 Narrabeen,5:00:00 PM
-[18],Wednesday 28/10/26,3:30:00 PM,well being room ,5:00:00 PM
+"[18, 35]",Wednesday 28/10/26,3:30:00 PM,well being room ,4:30:00 PM
 "[19, 20, 21, 22, 23]",Wednesday 28/10/26,3:30:00 PM,Y7 Science,5:00:00 PM
 "[28, 34, 38, 41, 43, 51]",Wednesday 28/10/26,3:30:00 PM,Y8 Collaroy Activities,5:00:00 PM
 "[44, 46, 47, 48, 50]",Wednesday 28/10/26,3:30:00 PM,Y9 Science,5:00:00 PM
@@ -355,7 +346,7 @@ staff,day,time,duty,end
 "[9, 11, 12]",Wednesday 28/10/26,4:00:00 PM,Bus C to Narrabeen,5:00:00 PM
 [10],Wednesday 28/10/26,4:00:00 PM,Drive to Narrabeen,5:00:00 PM
 "[14, 17, 24, 25, 26, 27, 29, 30, 31, 32, 33, 35, 36, 37, 40, 42, 45, 49, 52, 53, 55, 56, 57, 58, 59]",Wednesday 28/10/26,4:30:00 PM,,5:00:00 PM
-[54],Wednesday 28/10/26,4:30:00 PM,Well Being Room ,7:00:00 PM
+"[18, 54]",Wednesday 28/10/26,4:30:00 PM,well being room ,5:00:00 PM
 "[0, 5]",Wednesday 28/10/26,5:00:00 PM,Afternoon Tea supervision,5:30:00 PM
 "[1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 19, 20, 22, 23, 25, 28, 32, 33, 34, 35, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 55, 56, 57, 58, 59]",Wednesday 28/10/26,5:00:00 PM,,5:30:00 PM
 [13],Wednesday 28/10/26,5:00:00 PM,Trivia Night,6:30:00 PM
@@ -365,6 +356,7 @@ staff,day,time,duty,end
 [24],Wednesday 28/10/26,5:00:00 PM,well being room,6:00:00 PM
 [26],Wednesday 28/10/26,5:00:00 PM,Dorm Duty Long Reef,5:30:00 PM
 [39],Wednesday 28/10/26,5:00:00 PM,Trivia Night ,8:30:00 PM
+[54],Wednesday 28/10/26,5:00:00 PM,Well Being Room ,7:00:00 PM
 "[0, 1, 5, 6, 8, 10, 11, 12, 19, 20, 22, 23, 25, 26, 27, 28, 29, 30, 31, 33, 35, 36, 37, 38, 40, 41, 43, 44, 46, 47, 48, 50, 51, 52, 53, 55, 56, 57, 58, 59]",Wednesday 28/10/26,5:30:00 PM,,6:00:00 PM
 "[2, 3]",Wednesday 28/10/26,5:30:00 PM,Book Shop,6:00:00 PM
 "[4, 7, 9]",Wednesday 28/10/26,5:30:00 PM,Dorm Supervision,6:00:00 PM
@@ -384,10 +376,9 @@ staff,day,time,duty,end
 "[0, 3, 11]",Wednesday 28/10/26,7:00:00 PM,Author Talk,8:30:00 PM
 "[1, 2, 4, 5, 6, 7, 8, 9, 10, 12, 17, 19, 20, 21, 22, 24, 25, 26, 30, 32, 33, 35, 36, 37, 38, 41, 46, 52, 56, 57, 58, 59]",Wednesday 28/10/26,7:00:00 PM,,7:30:00 PM
 "[14, 15, 16, 18]",Wednesday 28/10/26,7:00:00 PM,Y7 Author Talk,8:30:00 PM
-[23],Wednesday 28/10/26,7:00:00 PM,well being room ,8:30:00 PM
-"[40, 54]",Wednesday 28/10/26,7:00:00 PM,Well Being Room ,7:30:00 PM
+"[23, 40, 54]",Wednesday 28/10/26,7:00:00 PM,well being room ,7:30:00 PM
 "[1, 2, 4, 5, 6, 7, 8, 9, 10, 12, 17, 19, 20, 21, 22, 24, 25, 26, 30, 32, 33, 35, 36, 37, 38, 41, 46, 52, 54, 56, 57, 58, 59]",Wednesday 28/10/26,7:30:00 PM,,8:00:00 PM
-[40],Wednesday 28/10/26,7:30:00 PM,Well Being Room ,8:30:00 PM
+"[23, 40]",Wednesday 28/10/26,7:30:00 PM,well being room ,8:30:00 PM
 "[1, 2, 4, 5, 6, 7, 8, 9, 10, 12, 17, 19, 20, 21, 22, 24, 25, 26, 30, 32, 33, 35, 36, 37, 38, 41, 43, 44, 45, 46, 52, 54, 56, 57, 58, 59]",Wednesday 28/10/26,8:00:00 PM,,8:30:00 PM
 "[0, 2, 3, 4, 6, 7, 8, 11, 12, 15, 16, 22, 24, 25, 26, 30, 32, 33, 35, 36, 38, 40, 41, 43, 44, 45, 46, 52, 55, 57, 58, 59]",Wednesday 28/10/26,8:30:00 PM,,9:00:00 PM
 "[1, 5, 9]",Wednesday 28/10/26,8:30:00 PM,Dorm Supervision,9:30:00 PM
@@ -408,13 +399,11 @@ staff,day,time,duty,end
 [49],Wednesday 28/10/26,9:30:00 PM,Fishermans Boys Dorms ,6:00:00 AM
 "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 48, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]",Wednesday 28/10/26,10:00:00 PM,,6:00:00 AM
 "[0, 1, 2, 3, 4, 5, 6, 9, 12, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 35, 36, 38, 40, 41, 42, 46, 48, 49, 50, 51, 52, 53, 55, 57, 58, 59]",Thursday 29/10/26,7:00:00 AM,,7:30:00 AM
-"[7, 8, 11]",Thursday 29/10/26,7:00:00 AM,wake up students,7:30:00 AM
+"[7, 8, 11, 13, 14, 15, 16, 17]",Thursday 29/10/26,7:00:00 AM,wake up students,7:30:00 AM
 [10],Thursday 29/10/26,7:00:00 AM,Meds,8:00:00 AM
-"[13, 14, 15, 16, 17]",Thursday 29/10/26,7:00:00 AM,Wake up students,7:30:00 AM
 [19],Thursday 29/10/26,7:00:00 AM,Wake Up Students ,7:30:00 AM
-[34],Thursday 29/10/26,7:00:00 AM,WAKE UP DORM,7:30:00 AM
+"[34, 43, 44, 45, 47]",Thursday 29/10/26,7:00:00 AM,WAKE UP DORM,7:30:00 AM
 "[37, 39, 54, 56]",Thursday 29/10/26,7:00:00 AM,Medication,7:30:00 AM
-"[43, 44, 45, 47]",Thursday 29/10/26,7:00:00 AM,Wake up Dorm,7:30:00 AM
 "[0, 1, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 17, 19, 24, 25, 26, 28, 29, 32, 33, 34, 35, 36, 38, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50, 51, 52, 53, 55, 57, 58, 59]",Thursday 29/10/26,7:30:00 AM,,8:00:00 AM
 [2],Thursday 29/10/26,7:30:00 AM,Breakfast supervision (dietaries),8:30:00 AM
 [4],Thursday 29/10/26,7:30:00 AM,Breakfast supervision,8:30:00 AM
@@ -478,8 +467,7 @@ staff,day,time,duty,end
 [10],Thursday 29/10/26,2:30:00 PM,Drive to Collaroy,3:00:00 PM
 "[24, 25, 27, 34, 39, 41, 47, 48, 52, 54, 57, 58, 59]",Thursday 29/10/26,2:30:00 PM,,3:00:00 PM
 "[0, 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 24, 25, 26, 28, 29, 30, 31, 34, 36, 40, 41, 44, 45, 49, 50, 51, 52, 57, 58, 59]",Thursday 29/10/26,3:00:00 PM,,3:30:00 PM
-[3],Thursday 29/10/26,3:00:00 PM,Afternoon Tea supervision,3:30:00 PM
-[9],Thursday 29/10/26,3:00:00 PM,Afternoon tea supervision,3:30:00 PM
+"[3, 9]",Thursday 29/10/26,3:00:00 PM,Afternoon Tea supervision,3:30:00 PM
 "[27, 39, 47, 48]",Thursday 29/10/26,3:00:00 PM,Afternoon Tea,3:30:00 PM
 [54],Thursday 29/10/26,3:00:00 PM,Well being room / assembly,6:00:00 PM
 "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",Thursday 29/10/26,3:30:00 PM,Walk to Assembly,4:00:00 PM
@@ -512,9 +500,8 @@ staff,day,time,duty,end
 "[13, 15, 19, 23]",Thursday 29/10/26,6:30:00 PM,Y7 Silent Disco/Board Games,8:00:00 PM
 "[29, 32, 49, 50, 51]",Thursday 29/10/26,6:30:00 PM,Dinner Duty,7:00:00 PM
 "[38, 44]",Thursday 29/10/26,6:30:00 PM,Y9 Roll Call,7:30:00 PM
-[45],Thursday 29/10/26,6:30:00 PM,Y10 Roll Call,7:30:00 PM
+"[45, 48]",Thursday 29/10/26,6:30:00 PM,Y10 Roll Call,7:30:00 PM
 [47],Thursday 29/10/26,6:30:00 PM,Y8 Roll Call,7:00:00 PM
-[48],Thursday 29/10/26,6:30:00 PM,Y10 Roll call,7:30:00 PM
 "[12, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 46, 49, 50, 51, 52, 54, 55, 56, 57, 58, 59]",Thursday 29/10/26,7:00:00 PM,,7:30:00 PM
 "[31, 47]",Thursday 29/10/26,7:00:00 PM,Y8 Roll Call,7:30:00 PM
 "[12, 14, 16, 17, 18, 20, 21, 22, 24, 25, 34, 36, 37, 44, 52]",Thursday 29/10/26,7:30:00 PM,,8:00:00 PM
@@ -548,13 +535,12 @@ staff,day,time,duty,end
 "[27, 32, 34, 35]",Friday 30/10/26,4:30:00 AM,Bus 10 Ballina,4:00:00 PM
 "[28, 29]",Friday 30/10/26,4:30:00 AM,Bus 14 Dubbo,3:00:00 PM
 "[30, 36, 37]",Friday 30/10/26,4:30:00 AM,Bus 15 Bowral/arirport,3:30:00 PM
-"[31, 50, 51]",Friday 30/10/26,4:30:00 AM,Wake up Girls Dorms,5:00:00 AM
+"[31, 43, 50, 51]",Friday 30/10/26,4:30:00 AM,Wake up Girls Dorms,5:00:00 AM
 "[33, 38]",Friday 30/10/26,4:30:00 AM,Bus 16 Griffith,4:00:00 PM
 "[39, 53]",Friday 30/10/26,4:30:00 AM,Bus 2 Armidale,6:00:00 AM
 "[40, 45]",Friday 30/10/26,4:30:00 AM,Bus 4 West Wyalong,4:00:00 PM
 "[41, 47]",Friday 30/10/26,4:30:00 AM,Bus 6 Albury,4:00:00 PM
 "[42, 48]",Friday 30/10/26,4:30:00 AM,Bus 9 Parkes,2:30:00 PM
-[43],Friday 30/10/26,4:30:00 AM,Wake Up Girls Dorms,5:00:00 AM
 [44],Friday 30/10/26,4:30:00 AM,Bus 3 HAY ,4:00:00 PM
 "[46, 55]",Friday 30/10/26,4:30:00 AM,Bus 5 Ulladulla,6:00:00 AM
 [49],Friday 30/10/26,4:30:00 AM,Wake Up boys Dorms,5:00:00 AM
