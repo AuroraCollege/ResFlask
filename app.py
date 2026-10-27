@@ -34,5 +34,14 @@ def staff(number):
     )
 
 
+@app.route("/maps/<site>/")
+def maps(site):
+    if site == "Narrabeen" or site == "Collaroy":
+        print(site, type(site))
+        return render_template("map.html", r=r, site=site)
+    else:
+        abort(404)
+
+
 if __name__ == "__main__":
     app.run(port=5000)

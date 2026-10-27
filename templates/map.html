@@ -1,0 +1,17 @@
+{% extends "layout.html" %} {% block content %}
+<h1>{{ site }}</h1>
+{% if site == "Narrabeen" %}
+<img
+  class="img-responsive"
+  src="{{ url_for('static', filename='Narra.png') }}"
+  alt="Narrabeen Map"
+/>
+{% elif site == "Collaroy" %}
+<img
+  class="img-responsive"
+  src="{{ url_for('static', filename='Colla.png') }}"
+  alt="Narrabeen Map"
+/>
+{% endif %}
+<div class="row row-cols-auto g-3 py-4"></div>
+{% endblock %}

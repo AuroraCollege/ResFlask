@@ -51,6 +51,25 @@
             {% endfor %}
           </div>
         </li>
+
+        <li class="nav-item">
+          <button
+            type="button"
+            class="nav-link{% if request.endpoint == 'group' %} active{% endif %}"
+            data-bs-toggle="menu"
+            aria-expanded="false"
+          >
+            Maps
+          </button>
+          <div class="menu">
+            {% for site in ["Narrabeen", "Collaroy"] %}
+            <a class="menu-item" href="{{ url_for('maps', site=site) }}"
+              >{{ site }}</a
+            >
+            {% endfor %}
+          </div>
+        </li>
+
         <li class="nav-item" hidden>
           <a class="nav-link" id="pinned-link" href="#"></a>
         </li>
