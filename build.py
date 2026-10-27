@@ -22,8 +22,6 @@ def pages():
         yield url_for("group", year=year)
     for site in ["Narrabeen", "Collaroy"]:
         yield url_for("maps", site=site)
-    yield url_for("static", filename="Colla.png")
-    yield url_for("static", filename="Narra.png")
 
 
 def build():
@@ -39,6 +37,8 @@ def build():
         path = OUT / url.strip("/") / "index.html"
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes(response.data)
+    # Copy images etc. as plain files (they aren't pages, so no index.html)
+    shutil.copytree(app.static_folder, OUT / "static")
     print(f"Built {len(urls)} pages into {OUT}/")
 
 
