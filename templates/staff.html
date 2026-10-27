@@ -30,7 +30,7 @@ block content %}
             {% if sites | length > 1 %} {# Mixed sites: one line per site #} {%
             for site, people in sites %}
             <div>
-              {{ {"N": "Narrabeen", "C": "Collaroy"}[site] }} staff: {{ people |
+              {{ {"N": "Narrabeen", "C": "Collaroy"}[site] }} Staff: {{ people |
               map(attribute="name") | join(", ") }}
             </div>
             {% endfor %} {% elif others %} With {{ others |
