@@ -24,10 +24,17 @@ block content %}
             <h5 class="mb-1">{{ duty.duty }}</h5>
           </div>
           <p class="mb-1">{{ duty.start }}–{{ duty.end }}</p>
+          {% set others = r.people(duty.staff | reject("eq", staff.number)) %}
+          {% set sites = others | groupby("site") %}
           <small class="fg-2">
-            {% if duty.staff|length > 1 %} With {{ r.names(duty.staff |
-            sort(attribute="site") | reject("eq", staff.number)) | join(", ") }}
-            {% endif %}
+            {% if sites | length > 1 %} {# Mixed sites: one line per site #} {%
+            for site, people in sites %}
+            <div>
+              {{ {"N": "Narrabeen", "C": "Collaroy"}[site] }} staff: {{ people |
+              map(attribute="name") | join(", ") }}
+            </div>
+            {% endfor %} {% elif others %} With {{ others |
+            map(attribute="name") | join(", ") }} {% endif %}
           </small>
         </div>
         {% endfor %}

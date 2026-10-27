@@ -33,6 +33,9 @@ class Roster:
     def names(self, numbers):
         return [self.staff[n].name for n in numbers]
 
+    def people(self, numbers):
+        return [self.staff[n] for n in numbers]
+
     def by_day(self, duties=None):
         # Group duties by day, keeping the roster's day order
         days = {}
