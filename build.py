@@ -22,6 +22,8 @@ def pages():
         yield url_for("group", year=year)
     for site in ["Narrabeen", "Collaroy"]:
         yield url_for("maps", site=site)
+    yield {url_for("static", filename="Colla.png")}
+    yield {url_for("static", filename="Narra.png")}
 
 
 def build():
