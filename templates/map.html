@@ -1,27 +1,29 @@
 {% extends "layout.html" %} {% block content %}
 <h1>{{ site }}</h1>
 {% if site == "Narrabeen" %}
-<img
-  class="img-responsive"
-  src="{{ url_for('static', filename='Narra.png') }}"
-  alt="Narrabeen Map"
-/>
-<img
-  class="img-responsive"
-  src="{{ url_for('static', filename='Narra2.png') }}"
-  alt="Narrabeen Map"
-/>
-<img
-  class="img-responsive"
-  src="{{ url_for('static', filename='Narra3.png') }}"
-  alt="Narrabeen Map"
-/>
-{% elif site == "Collaroy" %}
-<img
-  class="img-responsive"
-  src="{{ url_for('static', filename='Colla.png') }}"
-  alt="Collaroy Map"
-/>
-{% endif %}
-<div class="row row-cols-auto g-3 py-4"></div>
-{% endblock %}
+<picture><img
+    class="img-fluid"
+    src="{{ url_for('static', filename='Narra.png') }}"
+    alt="Narrabeen Map"
+  />
+  </picture><p></p>
+  <img
+    class="img-fluid"
+    src="{{ url_for('static', filename='Narra2.png') }}"
+    alt="Narrabeen Map"
+  /><p></p>
+  <img
+    class="img-fluid"
+    src="{{ url_for('static', filename='Narra3.png') }}"
+    alt="Narrabeen Map"
+  />
+  {% elif site == "Collaroy" %}
+  <img
+    class="img-fluid"
+    src="{{ url_for('static', filename='Colla.png') }}"
+    alt="Collaroy Map"
+  />
+  {% endif %}
+  <div class="row row-cols-auto g-3 py-4"></div>
+  {% endblock %}
+</picture>
